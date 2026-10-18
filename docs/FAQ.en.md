@@ -12,7 +12,7 @@ This language pack is intended for the official LostOdysseyRecomp from FreeFrank
 
 Extract into the folder containing `LostOdysseyRecomp.exe`, producing `mods/ru/language.ini`.
 All archive entries are under `mods/ru`; avoid `mods/mods` or an extra archive-name folder.
-Move any old `mods/ru` outside `mods` first. Then select Settings → System → Game language → Русский,
+Move any old `mods/ru` outside `mods` first. Then select Settings → System → Game language → Russian,
 save and fully restart. Startup/first-run host UI remains partly English.
 
 ## Can I use existing saves?

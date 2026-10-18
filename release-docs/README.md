@@ -20,7 +20,7 @@ Combined scope: 35,753 keys / 570 resources; this is not a completion percentage
 - [Release notes](RELEASE_NOTES.md) · [License scope](LICENSE.md) · [Third-party notices](THIRD_PARTY_NOTICES.md)
 
 Installation ZIPs contain only `mods/ru/...`; install into the folder containing the FreeFrank EXE.
-Move any older `mods/ru` completely outside `mods` first. Select **Settings → System → Game language → Русский**, save and restart.
+Move any older `mods/ru` completely outside `mods` first. Select **Settings → System → Game language → Russian**, save and restart.
 Dream add-on: install after the base. Remove it by replacing the entire language folder with a clean base copy; overlaying base files cannot remove leftover Dream overrides.
 Game data, saves, achievements and engine files are not replaced by this pack.
 

@@ -34,8 +34,10 @@ Installation is ZIP extraction; compilation is not required.
 4. Once published, download **`LostOdyssey-Russian-Language-Pack-v0.1.0-beta.zip`** from this project's Releases.
 5. Extract it into the folder containing **`LostOdysseyRecomp.exe`**, keeping the archive's directory structure.
 6. Confirm **`mods/ru/language.ini`** exists. Avoid `mods/mods/ru` or an extra archive-name folder.
-7. Start FreeFrank → **Settings → System → Game language → Русский**.
+7. Start FreeFrank → **Settings → System → Game language → Russian**.
 8. Choose **Save settings**, fully restart the game, then load your save.
+
+The selector label is **Russian** (pack ID `ru`). This ASCII label avoids the missing Cyrillic glyphs in the v1.0.4 settings-menu font; in-game text remains Russian.
 
 Choose **Game language**; **Settings language** controls FreeFrank's own settings UI.
 If Russian is missing, check the path, duplicate `id=ru` packs inside `mods`, the target version and restart.

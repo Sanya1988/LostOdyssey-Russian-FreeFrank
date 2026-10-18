@@ -26,3 +26,7 @@
 
 Missing skill names containing `%` were fixed in RU 0.5.1 and selectively owner-verified;
 this is not a claim to fix every possible blank label. Automated format PASS is not complete gameplay PASS.
+
+## Language name in settings
+
+Select **Russian** in Game language. The Cyrillic name renders as question marks in official v1.0.4 because its host UI font lacks Cyrillic and does not use game LOFONT additions. This is a settings-font limitation; pack ID `ru`, base `int` and Russian game text are unchanged.

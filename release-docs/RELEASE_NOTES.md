@@ -8,6 +8,7 @@
 
 Автор русификатора: **Sanya1988**. Спасибо FreeFrank и участникам его проекта за порт и поддержку language packs.
 
+В Settings → System → Game language выбирайте **Russian**. Имя латиницей обходит отсутствие кириллицы в шрифте настроек v1.0.4; игровой перевод и `id=ru` прежние.
 Data-only: штатные `language.ini`, JSON и LOFONT; замена EXE, DLL и игровых архивов не требуется.
 Основной пакет: 27 951 ключ / 536 ресурсов / 11 LOFONT. Диалоги, субтитры, игровые меню,
 предметы, бесконфликтная магия, навыки с исправленным `%`, действия, часть локаций и обучение.
@@ -26,6 +27,7 @@ This language pack is intended for the official LostOdysseyRecomp from FreeFrank
 
 Russian language pack author: **Sanya1988**. Thanks to FreeFrank and its project contributors for the port and language-pack support.
 
+Choose **Russian** in Settings → System → Game language. The ASCII label avoids missing Cyrillic glyphs in the v1.0.4 settings font; translated game text and `id=ru` are unchanged.
 Data only: stock `language.ini`, JSON and LOFONT. No EXE, DLL or game archive replacement.
 Default: 27,951 keys / 536 resources / 11 LOFONT; dialogue, subtitles, in-game menus,
 items, supported magic, corrected `%` skill names, actions, selected locations and tutorials.

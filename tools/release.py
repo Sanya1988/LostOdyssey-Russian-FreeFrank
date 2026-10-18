@@ -74,7 +74,7 @@ def validate():
             require(p.suffix not in ('.exe','.dll','.fpd','.fpi','.xex','.bin','.png','.dds','.lotex2','.zip'),'prohibited asset')
         counts[label]=dict(keys=keys,text_resources=resources,lofonts=fonts,files=len(rows))
     ini=dict(line.split('=',1) for line in (BASE/'mods/ru/language.ini').read_text(encoding='utf-8').splitlines() if line and not line.startswith(('#',';')))
-    require(ini==dict(id='ru',name='Русский',base='int'),'language pack manifest')
+    require(ini==dict(id='ru',name='Russian',base='int'),'language pack manifest')
     require(counts['base']['keys']==27951 and counts['base']['text_resources']==536 and counts['base']['lofonts']==11,'base counts')
     require(counts['experimental_dreams']['keys']==7802 and counts['experimental_dreams']['text_resources']==34,'Dream counts')
     require(all('/event/1000/int/dr_' not in name for name in files(BASE)),'Dream overrides in default package')

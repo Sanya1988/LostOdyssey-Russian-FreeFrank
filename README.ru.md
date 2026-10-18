@@ -79,7 +79,7 @@ https://github.com/Sanya1988/LostOdyssey-Russian-FreeFrank/releases/download/v0.
 4. После публикации нашего релиза скачайте **`LostOdyssey-Russian-Language-Pack-v0.1.0-beta.zip`** из раздела **Releases**.
 5. Распакуйте архив **в папку, где находится `LostOdysseyRecomp.exe`**, сохраняя структуру каталогов.
 6. Проверьте итоговый путь: **`mods/ru/language.ini`**. Не должно быть лишней папки с названием архива или пути `mods/mods/ru`.
-7. Запустите FreeFrank. Откройте **Settings → System → Game language** и выберите **Русский**.
+7. Запустите FreeFrank. Откройте **Settings → System → Game language** и выберите **Russian**.
 8. Нажмите **Save settings**, полностью перезапустите игру и загрузите своё сохранение.
 
 ```text
@@ -92,6 +92,8 @@ https://github.com/Sanya1988/LostOdyssey-Russian-FreeFrank/releases/download/v0.
         ├── fonts/
         └── licenses/
 ```
+
+В списке язык называется **Russian**: это русский перевод с идентификатором `ru`. Латинское название обходит ограничение шрифта меню настроек FreeFrank v1.0.4.
 
 Выбирайте именно **Game language**; пункт **Settings language** меняет язык собственного меню настроек FreeFrank. Если русского нет в списке, проверьте путь, отсутствие второго пакета с `id=ru` внутри `mods` и перезапуск.
 
@@ -156,7 +158,7 @@ Unofficial Russian text translation for **[FreeFrank LostOdysseyRecomp](https://
 1. Set up official **[FreeFrank for Windows x64](https://github.com/freefrank/LostOdysseyRecomp/releases/latest)** with your own original game data. Close the game.
 2. Once published, get **`LostOdyssey-Russian-Language-Pack-v0.1.0-beta.zip`** from Releases, not **Source code** or **Code → Download ZIP**.
 3. Move any existing `mods/ru` completely outside `mods`. Extract the main ZIP beside `LostOdysseyRecomp.exe`, producing **`mods/ru/language.ini`**.
-4. Start FreeFrank → **Settings → System → Game language → Русский → Save settings**. Fully restart, then load your save.
+4. Start FreeFrank → **Settings → System → Game language → Russian → Save settings**. Fully restart, then load your save.
 
 The separate **34-Dream EXPERIMENTAL** ZIP is optional: extract it over the same base version in the same EXE folder with the game closed. Severe overlaps, wrapping and animation issues remain. To remove it, move the entire `mods/ru` outside `mods` and install a fresh base ZIP. To uninstall the translation, leave that folder removed and select another language; keep saves, achievements, other mods and game files.
 
