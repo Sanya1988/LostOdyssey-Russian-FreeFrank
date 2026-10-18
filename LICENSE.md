@@ -1,7 +1,7 @@
 # License scope / Область лицензирования
 
-This release candidate has **no blanket license**. Translation, tools and fonts have separate rights.
-Этот релиз-кандидат не имеет общей лицензии на весь пакет. Нельзя считать лицензию кода/шрифта разрешением на оригинальную игру.
+This language pack has **no blanket license**. Translation, tools and fonts have separate rights.
+Этот языковой пакет не имеет общей лицензии на весь пакет. Нельзя считать лицензию кода/шрифта разрешением на оригинальную игру.
 
 ## Fonts — confirmed / Шрифты — подтверждено
 
@@ -23,15 +23,14 @@ No permission from Microsoft, Mistwalker, feelplus or FreeFrank is claimed. Poss
 
 Русская редакция связана с оригинальным произведением. Письменное разрешение правообладателей
 на распространение перевода не подтверждено. Открытая лицензия переводчика или уведомление об ответственности
-не устраняют права на оригинал. Публикация требует отдельного решения по правовому основанию распространения производного перевода.
+не устраняют права на оригинал. Правовой риск распространения производного перевода сохраняется.
 
 ## New packaging tool and documentation / Новый инструмент упаковки и документация
 
-`tools/release.py`, the CI definition and release documentation were newly prepared for this candidate.
+`tools/release.py`, the CI definition and release documentation are independently authored packaging code and documentation.
 They do not incorporate FreeFrank source or private converter code and use only Python's standard library.
-Their public license is intentionally **pending owner approval**; no open grant is made in this candidate.
-A narrowly scoped MIT license for these independently authored files is a proposed option, subject to ownership confirmation.
-This pending choice does not change the separate OFL grant for the fonts.
+No open license is granted here for the packaging tool, CI definition or documentation.
+This absence of a code/documentation license does not change the separate OFL grant for the fonts.
 
 ## Gameplay screenshots — legal review required / Игровые кадры — требуется проверка
 
@@ -40,11 +39,10 @@ They show Lost Odyssey rendered in official FreeFrank, not independently authore
 Their capture provenance and versions are recorded in [the screenshot guide](docs/screenshots/README.md).
 Capture ownership does not establish permission to distribute the underlying game content.
 No open license or rightsholder endorsement is assigned to these screenshots.
-Public placement remains **LEGAL_REVIEW_REQUIRED / OWNER_APPROVAL_REQUIRED**.
+Rights to distribute the depicted game content have not been established (**LEGAL_REVIEW_REQUIRED**).
 The screenshots are repository documentation only and are excluded from both installation ZIPs.
 
-Предоставление кадров владельцем разрешает локальную подготовку страницы, но не подтверждает права
-на публичное распространение игровых изображений. Этот вопрос рассматривается отдельно от OFL-шрифтов,
+Кадры предоставлены владельцем проекта, но права на распространение изображённых игровых материалов не подтверждены. Этот вопрос рассматривается отдельно от OFL-шрифтов,
 собственного кода и производного текста перевода.
 
 ## External FreeFrank / Внешний FreeFrank

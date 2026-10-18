@@ -2,7 +2,7 @@
 
 ## Что скачивать?
 
-Для установки нужен `LostOdyssey-Russian-Language-Pack-v0.1.0-beta.zip` из GitHub Pre-release.
+Для установки нужен `LostOdyssey-Russian-Language-Pack-v0.1.0-beta.zip` из [GitHub Releases](https://github.com/Sanya1988/LostOdyssey-Russian-FreeFrank/releases).
 Автоматический GitHub Source code ZIP — снимок репозитория с исходными данными/документацией, не установочный пакет.
 Официальный [FreeFrank для Windows x64](https://github.com/freefrank/LostOdysseyRecomp/releases/latest) и собственные данные Lost Odyssey нужны отдельно.
 
@@ -51,7 +51,7 @@ Press Start, первоначальная настройка и некоторы
 
 ## Куда сообщать об ошибке?
 
-В Issues этого проекта после публикации. Укажите версии, диск, локацию, экран и шаги; при необходимости — кадр с удалёнными личными данными.
+В [Issues этого проекта](https://github.com/Sanya1988/LostOdyssey-Russian-FreeFrank/issues). Укажите версии, диск, локацию, экран и шаги; при необходимости — кадр с удалёнными личными данными.
 Не прикладывайте диски, оригинальные архивы, сохранения, токены или полные дампы.
 
 ## Какова лицензия?

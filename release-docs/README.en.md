@@ -9,7 +9,7 @@ This language pack is intended for the official LostOdysseyRecomp from FreeFrank
 Russian language pack author: **Sanya1988**. Thanks to FreeFrank and its project contributors for the port and language-pack support.
 No original game or modified EXE is included. Translation is in development; no complete playthrough or check of every string is claimed.
 All 34 translated Dreams are available only as a separate EXPERIMENTAL installation add-on with serious known layout issues.
-This is a local release candidate. Publication and the derivative translation's rights still require review.
+Rights in the derivative translation remain unresolved; see LICENSE.md.
 It adapts the existing RU 0.5.1 canonical translation; no separate public edition has been written.
 
 The default pack provides **27,951 JSON keys in 536 resources and 11 LOFONT**:
@@ -31,7 +31,6 @@ Native-derived battle artwork and Loading graphics are excluded. See [known issu
 [Install](docs/INSTALL.en.md) · [Release notes](RELEASE_NOTES.md) · [License scope](LICENSE.md).
 Obtain original Lost Odyssey game data and official FreeFrank separately; no EXE or game archive replacement is required.
 For a bug, report exact FreeFrank/pack version, disc, location, screen, nearby text and reproduction steps.
-Remove personal information; do not upload game files, saves or full dumps. Use this project's Issues after publication;
-before publication, send findings to the project maintainer.
+Remove personal information; do not upload game files, saves or full dumps. Use [this project's Issues](https://github.com/Sanya1988/LostOdyssey-Russian-FreeFrank/issues).
 
 [FAQ](docs/FAQ.en.md) · Translation/add-on removal: [instructions](docs/INSTALL.en.md).

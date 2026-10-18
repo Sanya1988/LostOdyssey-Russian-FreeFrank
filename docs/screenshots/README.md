@@ -19,16 +19,15 @@
 
 ## Права / Rights
 
-**LEGAL_REVIEW_REQUIRED / OWNER_APPROVAL_REQUIRED.** Предоставление скриншота разрешает локальную
-подготовку страницы по заданию владельца, но не устанавливает право публичного распространения
+**LEGAL_REVIEW_REQUIRED.** Кадры предоставлены владельцем проекта. Это не устанавливает права распространения
 охраняемых материалов Lost Odyssey. Кадры не получили MIT, GPL, CC или другую открытую лицензию.
 Не заявляются разрешение правообладателей или одобрение FreeFrank.
 Изображения используются только в документации репозитория и не входят в два установочных ZIP.
 
 These are owner-supplied captures of Lost Odyssey rendered using official FreeFrank, not original
 free-to-relicense artwork. Versions come from the supplied manifest, not embedded EXE metadata.
-Ownership of a capture does not clear rights in the depicted game content. Public placement awaits
-separate legal review and owner approval. No blanket open license or endorsement is claimed.
+Ownership of a capture does not clear rights in the depicted game content. Written rightsholder
+authorization for its distribution has not been established. No blanket open license or endorsement is claimed.
 The images are excluded from the installation ZIPs.
 
 [Главная страница / Main page](../../README.md) · [Права и лицензии / License scope](../../LICENSE.md)

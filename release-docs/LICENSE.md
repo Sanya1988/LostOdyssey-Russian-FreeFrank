@@ -1,7 +1,7 @@
 # License scope / Область лицензирования
 
-This release candidate has **no blanket license**. Translation, tools and fonts have separate rights.
-Этот релиз-кандидат не имеет общей лицензии на весь пакет. Нельзя считать лицензию кода/шрифта разрешением на оригинальную игру.
+This language pack has **no blanket license**. Translation, tools and fonts have separate rights.
+Этот языковой пакет не имеет общей лицензии на весь пакет. Нельзя считать лицензию кода/шрифта разрешением на оригинальную игру.
 
 ## Fonts — confirmed / Шрифты — подтверждено
 
@@ -23,15 +23,14 @@ No permission from Microsoft, Mistwalker, feelplus or FreeFrank is claimed. Poss
 
 Русская редакция связана с оригинальным произведением. Письменное разрешение правообладателей
 на распространение перевода не подтверждено. Открытая лицензия переводчика или уведомление об ответственности
-не устраняют права на оригинал. Публикация требует отдельного решения по правовому основанию распространения производного перевода.
+не устраняют права на оригинал. Правовой риск распространения производного перевода сохраняется.
 
 ## New packaging tool and documentation / Новый инструмент упаковки и документация
 
-`tools/release.py`, the CI definition and release documentation were newly prepared for this candidate.
+`tools/release.py`, the CI definition and release documentation are independently authored packaging code and documentation.
 They do not incorporate FreeFrank source or private converter code and use only Python's standard library.
-Their public license is intentionally **pending owner approval**; no open grant is made in this candidate.
-A narrowly scoped MIT license for these independently authored files is a proposed option, subject to ownership confirmation.
-This pending choice does not change the separate OFL grant for the fonts.
+No open license is granted here for the packaging tool, CI definition or documentation.
+This absence of a code/documentation license does not change the separate OFL grant for the fonts.
 
 ## External FreeFrank / Внешний FreeFrank
 

@@ -18,7 +18,7 @@ audio, screenshots or native-derived graphical replacements in the installation 
 
 The repository documentation separately contains four owner-supplied gameplay screenshots in
 `docs/screenshots/`. They depict copyrighted game content; no permission or open license for that
-content is claimed. Their publication remains subject to legal review and owner approval.
+content is claimed. Written rightsholder authorization for distributing the depicted game content has not been established.
 See [screenshot provenance](docs/screenshots/README.md) and [license scope](LICENSE.md).
 
 No claim is made that Microsoft's Game Content Usage Rules authorize this translation:

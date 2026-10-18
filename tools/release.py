@@ -1,7 +1,6 @@
 """Validate and reproducibly package this data-only release; Python standard library only.
 
-Licensing of this newly authored tool is pending the owner's publication decision;
-see LICENSE.md. No FreeFrank source code or private converter is incorporated.
+No open license is granted for this independently authored tool; see LICENSE.md. No FreeFrank source code or private converter is incorporated.
 """
 import argparse
 import csv

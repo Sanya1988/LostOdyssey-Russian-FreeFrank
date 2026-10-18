@@ -24,7 +24,7 @@ Move any older `mods/ru` completely outside `mods` first. Select **Settings → 
 Dream add-on: install after the base. Remove it by replacing the entire language folder with a clean base copy; overlaying base files cannot remove leftover Dream overrides.
 Game data, saves, achievements and engine files are not replaced by this pack.
 
-Downloads will be provided through this repository's GitHub Pre-release after publication approval.
+Download the main language pack from [GitHub Releases](https://github.com/Sanya1988/LostOdyssey-Russian-FreeFrank/releases). The experimental translation of all 34 Dreams is a separate archive.
 Use the main language-pack ZIP, not GitHub's automatically generated Source code archive, for installation.
 The source tree's optional directory also contains the add-on sources; those files are not installed by the base ZIP.
 
@@ -33,4 +33,4 @@ Thanks to FreeFrank and its project contributors for the port and language-pack 
 
 This is a fan project, not affiliated with or endorsed by Microsoft, Mistwalker, feelplus or FreeFrank.
 No blanket open license is assigned to the translation. Noto additions retain SIL OFL 1.1.
-**Publication candidate: OWNER_APPROVAL_REQUIRED / LEGAL_REVIEW_REQUIRED.** See LICENSE.md for the unresolved derivative-text rights and proposed tooling license.
+**Derivative-text rights: LEGAL_REVIEW_REQUIRED.** See LICENSE.md for the separate text, font and tooling rights.

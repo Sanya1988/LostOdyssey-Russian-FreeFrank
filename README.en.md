@@ -13,16 +13,17 @@ no complete playthrough or review of every string is claimed. **All 34 Russian D
 
 ## Download
 
-**The release is not published yet.** After publication, use this project's GitHub Releases:
+Download the main language pack from [GitHub Releases](https://github.com/Sanya1988/LostOdyssey-Russian-FreeFrank/releases). The experimental translation of all 34 Dreams is a separate archive.
 
 | File | Purpose |
 | --- | --- |
-| **`LostOdyssey-Russian-Language-Pack-v0.1.0-beta.zip`** | **Start here:** the ready-to-install main pack, which works without the Dream add-on. |
-| `LostOdyssey-Russian-Dreams-v0.1.0-beta-EXPERIMENTAL.zip` | Optional 34-Dream add-on for the same base version. Serious layout issues remain. |
-| `SHA256SUMS.txt` | Checksums for both installation ZIPs. |
+| **[LostOdyssey-Russian-Language-Pack-v0.1.0-beta.zip](https://github.com/Sanya1988/LostOdyssey-Russian-FreeFrank/releases/download/v0.1.0-beta/LostOdyssey-Russian-Language-Pack-v0.1.0-beta.zip)** | **Start here:** the ready-to-install main pack; works without the Dream add-on. |
+| [LostOdyssey-Russian-Dreams-v0.1.0-beta-EXPERIMENTAL.zip](https://github.com/Sanya1988/LostOdyssey-Russian-FreeFrank/releases/download/v0.1.0-beta/LostOdyssey-Russian-Dreams-v0.1.0-beta-EXPERIMENTAL.zip) | Optional 34-Dream add-on for the same base version; serious layout issues remain. |
+| [SHA256SUMS.txt](https://github.com/Sanya1988/LostOdyssey-Russian-FreeFrank/releases/download/v0.1.0-beta/SHA256SUMS.txt) | Checksums for both installation ZIPs. |
+
+Version **v0.1.0-beta**: [release page](https://github.com/Sanya1988/LostOdyssey-Russian-FreeFrank/releases/tag/v0.1.0-beta).
 
 GitHub's **Source code** and **Code → Download ZIP** are repository snapshots, not the installation ZIP.
-The [Russian main page](README.md#скачать--download) records the planned release/asset addresses for verification after publication.
 
 ## Quick start
 
@@ -31,7 +32,7 @@ Installation is ZIP extraction; compilation is not required.
 1. Get official **[FreeFrank for Windows x64](https://github.com/freefrank/LostOdysseyRecomp/releases/latest)**.
 2. Set it up with your own original Lost Odyssey game data, following FreeFrank's instructions. Confirm the game starts.
 3. Close the game. Move any existing **entire `mods/ru` folder outside `mods`** as a backup. Do not merge old and new base packs.
-4. Once published, download **`LostOdyssey-Russian-Language-Pack-v0.1.0-beta.zip`** from this project's Releases.
+4. Download **`LostOdyssey-Russian-Language-Pack-v0.1.0-beta.zip`** from [GitHub Releases](https://github.com/Sanya1988/LostOdyssey-Russian-FreeFrank/releases).
 5. Extract it into the folder containing **`LostOdysseyRecomp.exe`**, keeping the archive's directory structure.
 6. Confirm **`mods/ru/language.ini`** exists. Avoid `mods/mods/ru` or an extra archive-name folder.
 7. Start FreeFrank → **Settings → System → Game language → Russian**.
@@ -89,7 +90,7 @@ Visible UI overflow is acknowledged in its captions.
 
 ## Reporting issues
 
-After publication, use this project's Issues. Until then, send findings to the maintainer.
+Use [this project's Issues](https://github.com/Sanya1988/LostOdyssey-Russian-FreeFrank/issues).
 Include FreeFrank/pack versions, disc, location, screen, nearby text and reproduction steps.
 Redact personal information from evidence; do not upload game files, saves, tokens or full dumps.
 
@@ -103,7 +104,7 @@ Mistwalker / feelplus are developers. This fan project has no official affiliati
 
 Noto Sans additions retain SIL OFL 1.1. The owner-supplied screenshots depict copyrighted game content;
 capture ownership does not establish permission to publish it. No blanket open license is assigned to text or images.
-**Publication: OWNER_APPROVAL_REQUIRED. Derivative translation and screenshot rights: LEGAL_REVIEW_REQUIRED.**
+**Derivative translation and screenshot rights: LEGAL_REVIEW_REQUIRED.**
 Notices do not replace rightsholder permission.
 
 [License scope](LICENSE.md) · [Third-party notices](THIRD_PARTY_NOTICES.md) · [Screenshot provenance](docs/screenshots/README.md).

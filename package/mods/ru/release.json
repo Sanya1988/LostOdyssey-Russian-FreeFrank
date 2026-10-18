@@ -11,5 +11,5 @@
   "lofont_files": 11,
   "dreams": "Original fallback by default; separate experimental add-on for 34 translated Dreams",
   "testing": "Automated format checks; selective prior owner gameplay verification, not a full playthrough",
-  "publication_status": "OWNER_APPROVAL_REQUIRED; LEGAL_REVIEW_REQUIRED"
+  "rights_status": "LEGAL_REVIEW_REQUIRED"
 }

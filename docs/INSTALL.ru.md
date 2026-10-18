@@ -8,7 +8,7 @@
 3. Полностью закройте игру. Если уже есть `mods/ru`, перенесите всю старую папку в резервное место **за пределами `mods`**.
    Не объединяйте новый основной пакет со старым: оставшиеся Dream-файлы сохранят экспериментальные сны.
    Не оставляйте копию `language.ini` со вторым `id=ru` в другой подпапке `mods`.
-4. Распакуйте основной `LostOdyssey-Russian-Language-Pack-v0.1.0-beta.zip` в папку с `LostOdysseyRecomp.exe`.
+4. Распакуйте основной [LostOdyssey-Russian-Language-Pack-v0.1.0-beta.zip](https://github.com/Sanya1988/LostOdyssey-Russian-FreeFrank/releases/download/v0.1.0-beta/LostOdyssey-Russian-Language-Pack-v0.1.0-beta.zip) в папку с `LostOdysseyRecomp.exe`.
    Итоговый путь: `mods/ru/language.ini`, рядом `mods/ru/text`, `mods/ru/fonts`, `mods/ru/licenses`.
    Лишнего `mods/mods` или промежуточной папки с названием ZIP быть не должно.
 5. Запустите игру. Откройте **Settings → System → Game language**, выберите **Russian** и сохраните настройку.

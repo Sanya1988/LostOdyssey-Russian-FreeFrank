@@ -1,8 +1,8 @@
-# v0.1.0-beta — Release candidate / Релиз-кандидат
+# v0.1.0-beta — Release Notes / Примечания к выпуску
 
 ## Русский
 
-Первая подготовленная публичная Beta существующего русского перевода.
+Первая публичная Beta существующего русского перевода.
 
 Русификатор предназначен для официального LostOdysseyRecomp от FreeFrank (Windows x64). Проверена работа на версии v1.0.4. Более новые версии могут быть совместимы, но пока не проверены. Обновления FreeFrank могут потребовать адаптации русификатора.
 
@@ -17,11 +17,11 @@ Data-only: штатные `language.ini`, JSON и LOFONT; замена EXE, DLL 
 Есть английские названия/host UI, ограничения XMB и переполнения; см. KNOWN_ISSUES.
 Графические производные, диски, исполняемые файлы, сохранения и приватная Git-история исключены.
 Прежняя игровая проверка выборочная. Новый ZIP проверен автоматически/offline; 100% перевод и полное прохождение не заявляются.
-Публикация и правовое основание производного перевода ожидают окончательного решения.
+Правовой риск производного перевода сохраняется: письменное разрешение правообладателей оригинала не подтверждено.
 
 ## English
 
-First prepared public Beta of the existing Russian translation.
+First public Beta of the existing Russian translation.
 
 This language pack is intended for the official LostOdysseyRecomp from FreeFrank (Windows x64). It has been tested on v1.0.4. Newer versions may be compatible but have not yet been tested. FreeFrank updates may require the language pack to be adapted.
 
@@ -36,11 +36,11 @@ Serious Dream layout issues keep these overrides out of the default ZIP.
 English names/host UI, XMB limits and UI overflow remain; see KNOWN_ISSUES.
 Native-derived artwork, discs, executables, saves and private Git history are excluded.
 Prior gameplay checks were selective. The new ZIP is validated automatically/offline; no complete localization or playthrough is claimed.
-Publication and the derivative translation's legal basis await a final decision.
+The derivative translation has unresolved rights: written authorization from the original rightsholders has not been established.
 
 ## Repository gallery / Галерея репозитория
 
 The GitHub README now includes four owner-supplied gameplay screenshots: three from FreeFrank v1.0.4
 and one earlier v1.0.0 dialogue capture. They are documentation only, excluded from the unchanged
-installation ZIPs, and remain subject to separate publication-rights review.
+installation ZIPs. Rights to distribute the depicted game content have not been established.
 Галерея не означает полного игрового PASS или подтверждённых прав на публичное размещение кадров.
