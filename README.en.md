@@ -1,6 +1,10 @@
-# Lost Odyssey Russian Language Pack v0.1.0 Beta
+# Lost Odyssey — Russian Language Pack
 
-Unofficial Russian text translation for official FreeFrank LostOdysseyRecomp **v1.0.4, Windows x64**.
+v0.1.0-beta
+
+Unofficial Russian text localization for [FreeFrank LostOdysseyRecomp](https://github.com/freefrank/LostOdysseyRecomp), **v1.0.4, Windows x64**.
+No original game or modified EXE is included. Translation is in development; no complete playthrough or check of every string is claimed.
+All 34 translated Dreams are available only as a separate EXPERIMENTAL installation add-on with serious known layout issues.
 This is a local release candidate. Publication and the derivative translation's rights still require review.
 It adapts the existing RU 0.5.1 canonical translation; no separate public edition has been written.
 
@@ -25,3 +29,5 @@ Obtain original Lost Odyssey game data and official FreeFrank separately; no EXE
 For a bug, report exact FreeFrank/pack version, disc, location, screen, nearby text and reproduction steps.
 Remove personal information; do not upload game files, saves or full dumps. Use this project's Issues after publication;
 before publication, send findings to the project maintainer.
+
+[FAQ](docs/FAQ.en.md) · Translation/add-on removal: [instructions](docs/INSTALL.en.md).
