@@ -1,0 +1,15 @@
+{
+  "name": "Lost Odyssey Russian Language Pack",
+  "version": "0.1.0-beta",
+  "target_freefrank": "1.0.4",
+  "language": "ru",
+  "native_base": "int",
+  "adapter_version": "0.5.1",
+  "canonical_records_checked": 44585,
+  "translated_json_keys": 27951,
+  "text_resources": 536,
+  "lofont_files": 11,
+  "dreams": "Original fallback by default; separate experimental add-on for 34 translated Dreams",
+  "testing": "Automated format checks; selective prior owner gameplay verification, not a full playthrough",
+  "publication_status": "OWNER_APPROVAL_REQUIRED; LEGAL_REVIEW_REQUIRED"
+}

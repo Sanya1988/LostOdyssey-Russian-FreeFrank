@@ -1,0 +1,4 @@
+# Preserve the exact bytes checked by the public SHA-256 manifest on all platforms.
+* -text
+# Keep the upstream OFL notice byte-for-byte, including its existing trailing space.
+package/mods/ru/licenses/NotoSans-OFL.txt -whitespace

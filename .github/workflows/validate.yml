@@ -1,0 +1,11 @@
+name: Validate data-only language pack
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - name: Validate JSON, LOFONT, manifest and package scope
+        run: python3 -X utf8 -B tools/release.py validate
