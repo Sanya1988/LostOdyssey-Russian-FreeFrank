@@ -14,7 +14,8 @@ Resource names such as Maiandra/Abc identify game routes; this does not grant ri
 
 ## Russian text — legal review required / Русский текст — требуется правовая проверка
 
-Russian edition: the Sanya1988 translation project and its contributors; final authorship/contributor permissions need maintainer confirmation.
+Russian language pack author: **Sanya1988**, the sole declared author at this stage, confirmed by the owner.
+This credits the Russian edition and language pack, not the original Lost Odyssey.
 The translation is derived from Lost Odyssey. No MIT, GPL, CC or other open license is assigned to its text here.
 No written rightsholder authorization for this fan translation has been supplied or identified in the audited materials.
 Rights in the original expression, stories, names and other game content remain with the relevant rightsholders.
@@ -22,7 +23,7 @@ No permission from Microsoft, Mistwalker, feelplus or FreeFrank is claimed. Poss
 
 Русская редакция связана с оригинальным произведением. Письменное разрешение правообладателей
 на распространение перевода не подтверждено. Открытая лицензия переводчика или уведомление об ответственности
-не устраняют права на оригинал. Публикация требует отдельного решения по правовому основанию и правам участников.
+не устраняют права на оригинал. Публикация требует отдельного решения по правовому основанию распространения производного перевода.
 
 ## New packaging tool and documentation / Новый инструмент упаковки и документация
 

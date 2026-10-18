@@ -2,7 +2,9 @@
 
 **Unofficial Russian text translation for [FreeFrank LostOdysseyRecomp](https://github.com/freefrank/LostOdysseyRecomp).**
 
-**v0.1.0 Beta | Windows x64 | FreeFrank v1.0.4**
+**v0.1.0 Beta | Windows x64**
+
+This language pack is intended for the official LostOdysseyRecomp from FreeFrank (Windows x64). It has been tested on v1.0.4. Newer versions may be compatible but have not yet been tested. FreeFrank updates may require the language pack to be adapted.
 
 Translation is in development. No original game or modified EXE is included. Gameplay checks were selective;
 no complete playthrough or review of every string is claimed. **All 34 Russian Dreams are a separate experimental add-on.**
@@ -26,7 +28,7 @@ The [Russian main page](README.md#скачать--download) records the planned 
 
 Installation is ZIP extraction; compilation is not required.
 
-1. Get official **[FreeFrank v1.0.4 for Windows x64](https://github.com/freefrank/LostOdysseyRecomp/releases/tag/v1.0.4)**.
+1. Get official **[FreeFrank for Windows x64](https://github.com/freefrank/LostOdysseyRecomp/releases/latest)**.
 2. Set it up with your own original Lost Odyssey game data, following FreeFrank's instructions. Confirm the game starts.
 3. Close the game. Move any existing **entire `mods/ru` folder outside `mods`** as a backup. Do not merge old and new base packs.
 4. Once published, download **`LostOdyssey-Russian-Language-Pack-v0.1.0-beta.zip`** from this project's Releases.
@@ -91,8 +93,8 @@ Redact personal information from evidence; do not upload game files, saves, toke
 
 ## Credits and rights
 
-Russian edition: the Sanya1988 translation project and its contributors; final authorship and contributor permissions
-need maintainer confirmation. FreeFrank and its contributors created the separate LostOdysseyRecomp port;
+Russian language pack author: **Sanya1988**. This credits the Russian edition and language pack, not the original Lost Odyssey.
+FreeFrank and its contributors created the separate LostOdysseyRecomp port;
 thanks for its stock language-pack system. Their endorsement of this translation is not claimed.
 Lost Odyssey and its game content belong to the respective rightsholders; Microsoft is the publisher,
 Mistwalker / feelplus are developers. This fan project has no official affiliation with them.

@@ -1,10 +1,10 @@
 # Lost Odyssey — Russian Language Pack
 
 **Неофициальная русская текстовая локализация для [LostOdysseyRecomp от FreeFrank](https://github.com/freefrank/LostOdysseyRecomp).**
-Проверена выборочно на **Windows x64, FreeFrank v1.0.4**. Оригинальная игра и изменённый EXE в пакет не входят.
+Русификатор предназначен для официального LostOdysseyRecomp от FreeFrank (Windows x64). Проверена работа на версии v1.0.4. Более новые версии могут быть совместимы, но пока не проверены. Обновления FreeFrank могут потребовать адаптации русификатора. Оригинальная игра и изменённый EXE в пакет не входят.
 Перевод развивается; полное прохождение и проверка каждой строки не подтверждены.
 
-**Unofficial Russian text localization for FreeFrank LostOdysseyRecomp**, selectively tested on Windows x64 v1.0.4.
+**Unofficial Russian text localization for FreeFrank LostOdysseyRecomp.** This language pack is intended for the official LostOdysseyRecomp from FreeFrank (Windows x64). It has been tested on v1.0.4. Newer versions may be compatible but have not yet been tested. FreeFrank updates may require the language pack to be adapted.
 No original game or modified executable is included. Translation is in development; no complete playthrough/string-by-string approval is claimed.
 
 **v0.1.0-beta** · [Русский](README.ru.md) · [English](README.en.md) · [Установка](docs/INSTALL.ru.md) · [Install](docs/INSTALL.en.md)
@@ -28,6 +28,9 @@ Downloads will be provided through this repository's GitHub Pre-release after pu
 Use the main language-pack ZIP, not GitHub's automatically generated Source code archive, for installation.
 The source tree's optional directory also contains the add-on sources; those files are not installed by the base ZIP.
 
+Автор русификатора / Russian language pack author: **Sanya1988**.
+Thanks to FreeFrank and its project contributors for the port and language-pack support.
+
 This is a fan project, not affiliated with or endorsed by Microsoft, Mistwalker, feelplus or FreeFrank.
 No blanket open license is assigned to the translation. Noto additions retain SIL OFL 1.1.
-**Publication candidate: OWNER_APPROVAL_REQUIRED / LEGAL_REVIEW_REQUIRED.** See LICENSE.md for the unresolved derivative-text/contributor rights and proposed tooling license.
+**Publication candidate: OWNER_APPROVAL_REQUIRED / LEGAL_REVIEW_REQUIRED.** See LICENSE.md for the unresolved derivative-text rights and proposed tooling license.

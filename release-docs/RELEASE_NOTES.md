@@ -2,7 +2,12 @@
 
 ## Русский
 
-Первая подготовленная публичная Beta существующего русского перевода для официального FreeFrank v1.0.4 (Windows x64).
+Первая подготовленная публичная Beta существующего русского перевода.
+
+Русификатор предназначен для официального LostOdysseyRecomp от FreeFrank (Windows x64). Проверена работа на версии v1.0.4. Более новые версии могут быть совместимы, но пока не проверены. Обновления FreeFrank могут потребовать адаптации русификатора.
+
+Автор русификатора: **Sanya1988**. Спасибо FreeFrank и участникам его проекта за порт и поддержку language packs.
+
 Data-only: штатные `language.ini`, JSON и LOFONT; замена EXE, DLL и игровых архивов не требуется.
 Основной пакет: 27 951 ключ / 536 ресурсов / 11 LOFONT. Диалоги, субтитры, игровые меню,
 предметы, бесконфликтная магия, навыки с исправленным `%`, действия, часть локаций и обучение.
@@ -15,7 +20,12 @@ Data-only: штатные `language.ini`, JSON и LOFONT; замена EXE, DLL 
 
 ## English
 
-First prepared public Beta of the existing Russian translation for official FreeFrank v1.0.4 (Windows x64).
+First prepared public Beta of the existing Russian translation.
+
+This language pack is intended for the official LostOdysseyRecomp from FreeFrank (Windows x64). It has been tested on v1.0.4. Newer versions may be compatible but have not yet been tested. FreeFrank updates may require the language pack to be adapted.
+
+Russian language pack author: **Sanya1988**. Thanks to FreeFrank and its project contributors for the port and language-pack support.
+
 Data only: stock `language.ini`, JSON and LOFONT. No EXE, DLL or game archive replacement.
 Default: 27,951 keys / 536 resources / 11 LOFONT; dialogue, subtitles, in-game menus,
 items, supported magic, corrected `%` skill names, actions, selected locations and tutorials.

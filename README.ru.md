@@ -2,7 +2,9 @@
 
 **Неофициальный русский текстовый перевод для [LostOdysseyRecomp от FreeFrank](https://github.com/freefrank/LostOdysseyRecomp).**
 
-**v0.1.0 Beta | Windows x64 | FreeFrank v1.0.4**
+**v0.1.0 Beta | Windows x64**
+
+Русификатор предназначен для официального LostOdysseyRecomp от FreeFrank (Windows x64). Проверена работа на версии v1.0.4. Более новые версии могут быть совместимы, но пока не проверены. Обновления FreeFrank могут потребовать адаптации русификатора.
 
 Диалоги, субтитры, игровые меню, предметы, навыки и боевые сообщения — на русском в поддержанных ресурсах.
 
@@ -71,7 +73,7 @@ https://github.com/Sanya1988/LostOdyssey-Russian-FreeFrank/releases/download/v0.
 
 Установка выполняется распаковкой ZIP. Компиляция не требуется.
 
-1. Скачайте официальный **[FreeFrank v1.0.4 для Windows x64](https://github.com/freefrank/LostOdysseyRecomp/releases/tag/v1.0.4)**.
+1. Скачайте официальный **[FreeFrank для Windows x64](https://github.com/freefrank/LostOdysseyRecomp/releases/latest)**.
 2. Настройте его со своими оригинальными игровыми данными Lost Odyssey по инструкции FreeFrank. Сначала убедитесь, что игра запускается.
 3. **Полностью закройте игру.** Если уже есть папка `mods/ru`, перенесите её целиком в резервное место **за пределами `mods`**. Старую и новую версии основного пакета объединять не следует.
 4. После публикации нашего релиза скачайте **`LostOdyssey-Russian-Language-Pack-v0.1.0-beta.zip`** из раздела **Releases**.
@@ -149,9 +151,9 @@ https://github.com/Sanya1988/LostOdyssey-Russian-FreeFrank/releases/download/v0.
 
 ## English quick start
 
-Unofficial Russian text translation for **[FreeFrank LostOdysseyRecomp](https://github.com/freefrank/LostOdysseyRecomp), Windows x64 v1.0.4**. Beta, selectively tested; no complete playthrough or approval of every string is claimed. No original game or modified EXE is included. **This release is not published yet.**
+Unofficial Russian text translation for **[FreeFrank LostOdysseyRecomp](https://github.com/freefrank/LostOdysseyRecomp), Windows x64**. This language pack is intended for the official LostOdysseyRecomp from FreeFrank (Windows x64). It has been tested on v1.0.4. Newer versions may be compatible but have not yet been tested. FreeFrank updates may require the language pack to be adapted. Beta, selectively tested; no complete playthrough or approval of every string is claimed. No original game or modified EXE is included. **This release is not published yet.**
 
-1. Set up official **[FreeFrank v1.0.4](https://github.com/freefrank/LostOdysseyRecomp/releases/tag/v1.0.4)** with your own original game data. Close the game.
+1. Set up official **[FreeFrank for Windows x64](https://github.com/freefrank/LostOdysseyRecomp/releases/latest)** with your own original game data. Close the game.
 2. Once published, get **`LostOdyssey-Russian-Language-Pack-v0.1.0-beta.zip`** from Releases, not **Source code** or **Code → Download ZIP**.
 3. Move any existing `mods/ru` completely outside `mods`. Extract the main ZIP beside `LostOdysseyRecomp.exe`, producing **`mods/ru/language.ini`**.
 4. Start FreeFrank → **Settings → System → Game language → Русский → Save settings**. Fully restart, then load your save.
@@ -162,7 +164,7 @@ The separate **34-Dream EXPERIMENTAL** ZIP is optional: extract it over the same
 
 ## Авторы, благодарности и права
 
-**Русская редакция:** проект Sanya1988 и участники перевода. Состав авторов и необходимые согласия на распространение требуют окончательного подтверждения владельцем.
+**Автор русификатора: Sanya1988.** Это авторство русской редакции и языкового пакета, а не оригинальной Lost Odyssey.
 
 **LostOdysseyRecomp:** FreeFrank и участники официального проекта порта. Спасибо за штатную систему языковых пакетов. Их авторство относится к порту; одобрение этого перевода не заявляется.
 

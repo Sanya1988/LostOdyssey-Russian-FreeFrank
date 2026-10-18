@@ -1,6 +1,8 @@
-# Installation — Windows / FreeFrank v1.0.4
+# Installation — Windows x64 / FreeFrank
 
-1. Obtain official [FreeFrank v1.0.4](https://github.com/freefrank/LostOdysseyRecomp/releases/tag/v1.0.4).
+This language pack is intended for the official LostOdysseyRecomp from FreeFrank (Windows x64). It has been tested on v1.0.4. Newer versions may be compatible but have not yet been tested. FreeFrank updates may require the language pack to be adapted.
+
+1. Obtain official [FreeFrank for Windows x64](https://github.com/freefrank/LostOdysseyRecomp/releases/latest).
 2. Prepare your own original game data using FreeFrank's instructions. No discs or copying rights are supplied here.
    Confirm the game works before adding the language pack.
 3. Close the game. If `mods/ru` already exists, move the **entire folder outside `mods`** as a backup.
@@ -17,7 +19,7 @@ The default package uses original Dream fallback. The optional 34-Dream EXPERIME
 same base version, extracted into the same game folder. It has serious known layout problems and is not standalone.
 Read `EXPERIMENTAL_DREAMS.md` in that archive.
 
-If Russian is missing, check `mods/ru/language.ini`, duplicate IDs, v1.0.4 and restart.
+If Russian is missing, check `mods/ru/language.ini`, duplicate IDs and restart.
 If English text remains, check KNOWN_ISSUES; do not replace unrelated game files.
 Uninstall with the game closed: move `mods/ru` outside `mods`, choose another language and restart.
 To disable experimental Dreams, replace the **entire** folder with the clean default pack.
