@@ -92,7 +92,8 @@ def package_entries(addon=False):
     for p in sorted((ROOT/'docs').glob('*')):
         if p.is_file():entries['mods/ru/docs/'+p.name]=p.read_bytes()
     for name in ('README.md','README.ru.md','README.en.md','LICENSE.md','THIRD_PARTY_NOTICES.md','RELEASE_NOTES.md'):
-        entries['mods/ru/'+name]=(ROOT/name).read_bytes()
+        # Installation documents are frozen separately from the GitHub screenshot page.
+        entries['mods/ru/'+name]=(ROOT/'release-docs'/name).read_bytes()
     if addon:entries['mods/ru/EXPERIMENTAL_DREAMS.md']=(ROOT/'optional/experimental-dreams/README.md').read_bytes()
     sums='mods/ru/SHA256SUMS-'+('dreams' if addon else 'base')+'.txt'
     entries[sums]=(''.join(sha(b)+'  '+name+'\n' for name,b in sorted(entries.items()))).encode('utf-8')

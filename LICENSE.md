@@ -32,6 +32,20 @@ Their public license is intentionally **pending owner approval**; no open grant 
 A narrowly scoped MIT license for these independently authored files is a proposed option, subject to ownership confirmation.
 This pending choice does not change the separate OFL grant for the fonts.
 
+## Gameplay screenshots — legal review required / Игровые кадры — требуется проверка
+
+The four PNG files in `docs/screenshots/` are game-window crops supplied by the project owner.
+They show Lost Odyssey rendered in official FreeFrank, not independently authored free artwork.
+Their capture provenance and versions are recorded in [the screenshot guide](docs/screenshots/README.md).
+Capture ownership does not establish permission to distribute the underlying game content.
+No open license or rightsholder endorsement is assigned to these screenshots.
+Public placement remains **LEGAL_REVIEW_REQUIRED / OWNER_APPROVAL_REQUIRED**.
+The screenshots are repository documentation only and are excluded from both installation ZIPs.
+
+Предоставление кадров владельцем разрешает локальную подготовку страницы, но не подтверждает права
+на публичное распространение игровых изображений. Этот вопрос рассматривается отдельно от OFL-шрифтов,
+собственного кода и производного текста перевода.
+
 ## External FreeFrank / Внешний FreeFrank
 
 FreeFrank is a separate GPL-3.0-licensed program, obtained from its official repository.

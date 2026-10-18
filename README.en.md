@@ -1,33 +1,105 @@
 # Lost Odyssey — Russian Language Pack
 
-v0.1.0-beta
+**Unofficial Russian text translation for [FreeFrank LostOdysseyRecomp](https://github.com/freefrank/LostOdysseyRecomp).**
 
-Unofficial Russian text localization for [FreeFrank LostOdysseyRecomp](https://github.com/freefrank/LostOdysseyRecomp), **v1.0.4, Windows x64**.
-No original game or modified EXE is included. Translation is in development; no complete playthrough or check of every string is claimed.
-All 34 translated Dreams are available only as a separate EXPERIMENTAL installation add-on with serious known layout issues.
-This is a local release candidate. Publication and the derivative translation's rights still require review.
-It adapts the existing RU 0.5.1 canonical translation; no separate public edition has been written.
+**v0.1.0 Beta | Windows x64 | FreeFrank v1.0.4**
 
-The default pack provides **27,951 JSON keys in 536 resources and 11 LOFONT**:
-main in-game menus, dialogue, story subtitles, items/descriptions, supported spell names,
-skills, actions, selected locations, tutorials and some system messages. These numbers are not a completion percentage.
+Translation is in development. No original game or modified EXE is included. Gameplay checks were selective;
+no complete playthrough or review of every string is claimed. **All 34 Russian Dreams are a separate experimental add-on.**
 
-All 34 Dreams have Russian text, but their layout has severe overlaps, broken wrapping and animation limitations.
-The default pack keeps original Dream fallback. An optional **EXPERIMENTAL** add-on adds 7,802 keys for those 34 Dreams.
-Combined scope is 35,753 keys / 570 resources. Nine opening-story captions are separate and stay in the default pack.
+[Русская главная страница](README.md) · [Full installation guide](docs/INSTALL.en.md) · [FAQ](docs/FAQ.en.md)
 
-The owner selectively checked RU 0.5.1 on v1.0.4: launch/save loading, skill names containing %, dialogue/subtitles,
-items, some magic, actions, locations and sampled Dreams. Automated readers checked all four discs.
-This is not a full playthrough or visual approval of every string. Other builds/platforms require retesting.
+## Download
 
-Some spells remain English because full/short canonical names conflict; XMB pool limits defer 550 bindings.
-Long UI text may overlap. Old save slots can retain English location snapshots. Startup/setup/language-selection host UI is incomplete.
-Native-derived battle artwork and Loading graphics are excluded. See [known issues](docs/KNOWN_ISSUES.en.md).
+**The release is not published yet.** After publication, use this project's GitHub Releases:
 
-[Install](docs/INSTALL.en.md) · [Release notes](RELEASE_NOTES.md) · [License scope](LICENSE.md).
-Obtain original Lost Odyssey game data and official FreeFrank separately; no EXE or game archive replacement is required.
-For a bug, report exact FreeFrank/pack version, disc, location, screen, nearby text and reproduction steps.
-Remove personal information; do not upload game files, saves or full dumps. Use this project's Issues after publication;
-before publication, send findings to the project maintainer.
+| File | Purpose |
+| --- | --- |
+| **`LostOdyssey-Russian-Language-Pack-v0.1.0-beta.zip`** | **Start here:** the ready-to-install main pack, which works without the Dream add-on. |
+| `LostOdyssey-Russian-Dreams-v0.1.0-beta-EXPERIMENTAL.zip` | Optional 34-Dream add-on for the same base version. Serious layout issues remain. |
+| `SHA256SUMS.txt` | Checksums for both installation ZIPs. |
 
-[FAQ](docs/FAQ.en.md) · Translation/add-on removal: [instructions](docs/INSTALL.en.md).
+GitHub's **Source code** and **Code → Download ZIP** are repository snapshots, not the installation ZIP.
+The [Russian main page](README.md#скачать--download) records the planned release/asset addresses for verification after publication.
+
+## Quick start
+
+Installation is ZIP extraction; compilation is not required.
+
+1. Get official **[FreeFrank v1.0.4 for Windows x64](https://github.com/freefrank/LostOdysseyRecomp/releases/tag/v1.0.4)**.
+2. Set it up with your own original Lost Odyssey game data, following FreeFrank's instructions. Confirm the game starts.
+3. Close the game. Move any existing **entire `mods/ru` folder outside `mods`** as a backup. Do not merge old and new base packs.
+4. Once published, download **`LostOdyssey-Russian-Language-Pack-v0.1.0-beta.zip`** from this project's Releases.
+5. Extract it into the folder containing **`LostOdysseyRecomp.exe`**, keeping the archive's directory structure.
+6. Confirm **`mods/ru/language.ini`** exists. Avoid `mods/mods/ru` or an extra archive-name folder.
+7. Start FreeFrank → **Settings → System → Game language → Русский**.
+8. Choose **Save settings**, fully restart the game, then load your save.
+
+Choose **Game language**; **Settings language** controls FreeFrank's own settings UI.
+If Russian is missing, check the path, duplicate `id=ru` packs inside `mods`, the target version and restart.
+Installing this pack does not require moving or overwriting saves or achievements.
+
+### Optional Russian Dreams
+
+Close the game and extract **`LostOdyssey-Russian-Dreams-v0.1.0-beta-EXPERIMENTAL.zip`** into the same EXE folder,
+merging `mods/ru` with the installed base pack of the same version. Restart afterward.
+All 34 stories have Russian text, but **severe overlaps, bad wrapping, broken words and animation/presentation issues** remain.
+Some pages are difficult to read. The main ZIP keeps the original Dream fallback and works independently.
+
+### Removal
+
+Close the game and move only this pack's **`mods/ru` outside `mods`**. Select another available game language and restart.
+Restore your previous `ru` backup if applicable. Keep saves, achievements, other mods and original game files.
+
+To remove **only experimental Dreams**, move the entire current `mods/ru` outside `mods`, then extract a fresh base ZIP.
+Overlaying base files alone cannot delete leftover Dream overrides.
+
+## Coverage and limitations
+
+Russian dialogue and story subtitles; main in-game menus and some system messages; items/descriptions;
+supported spell names and skills; combat messages/actions; selected locations and tutorials; Cyrillic glyph additions.
+No Russian voice-over or graphical replacement mod is included.
+
+The existing **RU 0.5.1** translation is the source. The base pack has **27,951 JSON keys / 536 text resources / 11 LOFONT**.
+The optional 34 Dreams add 7,802 keys; combined scope is 35,753 keys / 570 resources.
+Nine opening-story captions are separate and stay in the base. Counts are not a completion percentage.
+
+The owner selectively checked launch/save loading, `%` skill names, dialogue/subtitles, items, some magic,
+actions, locations and sampled Dreams on v1.0.4. Format checks covered all four discs.
+Other versions/platforms require separate testing.
+
+- Long UI labels may overlap or overflow.
+- Some spells remain English because canonical full/short names conflict.
+- XMB string-pool limits leave some locations untranslated.
+- Old save slots can retain stored English location names.
+- Startup/first-run/settings host UI remains partly English.
+- Original combat artwork and Loading graphics are not replaced.
+- Optional Dreams have serious layout problems, described above.
+
+Missing skill names containing `%` were **fixed in RU 0.5.1** and selectively verified by the owner;
+this does not claim to fix every possible blank label.
+
+[Full known issues](docs/KNOWN_ISSUES.en.md) · [Release notes](RELEASE_NOTES.md) · [Screenshot gallery](README.md#скриншоты).
+The gallery has three v1.0.4 captures and one earlier **v1.0.0** dialogue capture, which is not v1.0.4 validation.
+Visible UI overflow is acknowledged in its captions.
+
+## Reporting issues
+
+After publication, use this project's Issues. Until then, send findings to the maintainer.
+Include FreeFrank/pack versions, disc, location, screen, nearby text and reproduction steps.
+Redact personal information from evidence; do not upload game files, saves, tokens or full dumps.
+
+## Credits and rights
+
+Russian edition: the Sanya1988 translation project and its contributors; final authorship and contributor permissions
+need maintainer confirmation. FreeFrank and its contributors created the separate LostOdysseyRecomp port;
+thanks for its stock language-pack system. Their endorsement of this translation is not claimed.
+Lost Odyssey and its game content belong to the respective rightsholders; Microsoft is the publisher,
+Mistwalker / feelplus are developers. This fan project has no official affiliation with them.
+
+Noto Sans additions retain SIL OFL 1.1. The owner-supplied screenshots depict copyrighted game content;
+capture ownership does not establish permission to publish it. No blanket open license is assigned to text or images.
+**Publication: OWNER_APPROVAL_REQUIRED. Derivative translation and screenshot rights: LEGAL_REVIEW_REQUIRED.**
+Notices do not replace rightsholder permission.
+
+[License scope](LICENSE.md) · [Third-party notices](THIRD_PARTY_NOTICES.md) · [Screenshot provenance](docs/screenshots/README.md).

@@ -25,3 +25,10 @@ English names/host UI, XMB limits and UI overflow remain; see KNOWN_ISSUES.
 Native-derived artwork, discs, executables, saves and private Git history are excluded.
 Prior gameplay checks were selective. The new ZIP is validated automatically/offline; no complete localization or playthrough is claimed.
 Publication and the derivative translation's legal basis await a final decision.
+
+## Repository gallery / Галерея репозитория
+
+The GitHub README now includes four owner-supplied gameplay screenshots: three from FreeFrank v1.0.4
+and one earlier v1.0.0 dialogue capture. They are documentation only, excluded from the unchanged
+installation ZIPs, and remain subject to separate publication-rights review.
+Галерея не означает полного игрового PASS или подтверждённых прав на публичное размещение кадров.

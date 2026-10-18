@@ -1,0 +1,60 @@
+{
+  "images": [
+    {
+      "file": "skills-freefrank-v104.png",
+      "freefrank_version": "v1.0.4",
+      "description": "Skills / visible percentage labels; remaining header overlap is visible.",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "sha256": "8494767b0ae559c0e799f3a677ce74de5d4c55ce179bcd4caa39bcf8650b1d3b",
+      "size_bytes": 667571,
+      "provenance": "Owner-supplied game-window crop; copied unchanged from the supplied screenshot archive.",
+      "publication_rights": "LEGAL_REVIEW_REQUIRED",
+      "open_license": null
+    },
+    {
+      "file": "world-map-freefrank-v104.png",
+      "freefrank_version": "v1.0.4",
+      "description": "World map with Russian destination labels; a long label overflows.",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "sha256": "1ac54cda87cafa00196a0690715f6bc88cef5069df486a234c1c8979990df956",
+      "size_bytes": 1061413,
+      "provenance": "Owner-supplied game-window crop; copied unchanged from the supplied screenshot archive.",
+      "publication_rights": "LEGAL_REVIEW_REQUIRED",
+      "open_license": null
+    },
+    {
+      "file": "field-item-freefrank-v104.png",
+      "freefrank_version": "v1.0.4",
+      "description": "Received-item notification in Russian during gameplay.",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "sha256": "7f769b59dacee3eddd0969988e82390a6b2bb0eb19176fe6833642aba7f59098",
+      "size_bytes": 1197094,
+      "provenance": "Owner-supplied game-window crop; copied unchanged from the supplied screenshot archive.",
+      "publication_rights": "LEGAL_REVIEW_REQUIRED",
+      "open_license": null
+    },
+    {
+      "file": "dialogue-freefrank-v100.png",
+      "freefrank_version": "v1.0.0",
+      "description": "Russian NPC dialogue. Captured on earlier FreeFrank v1.0.0, not a v1.0.4 validation image.",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "sha256": "42119b95bde168a166850d2f573b488db284bcb76f39b238635bfef91babd794",
+      "size_bytes": 1217401,
+      "provenance": "Owner-supplied game-window crop; copied unchanged from the supplied screenshot archive.",
+      "publication_rights": "LEGAL_REVIEW_REQUIRED",
+      "open_license": null
+    }
+  ]
+}

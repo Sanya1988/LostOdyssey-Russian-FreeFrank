@@ -14,3 +14,13 @@ editorial corpus, development history, converter, game exports or build dependen
 the translation from that private corpus. Source archive means this exact reviewed public tree, not the entire private toolchain.
 Native four-disc/format testing and prior selective gameplay results are documented in the maintainer's audit;
 the lightweight public CI is not a substitute for those tests or new gameplay testing.
+
+## Website documentation and frozen installation documents
+
+The root README files and `docs/screenshots/` are GitHub documentation. Screenshots have a separate
+unresolved publication-rights status; they are not installation payload.
+`release-docs/` preserves the six root-level documents already embedded in the approved v0.1.0-beta ZIPs,
+byte for byte. The packager reads those snapshots rather than the GitHub page, so gallery changes
+do not add images or broken gallery links to the installed pack and do not change the frozen ZIP hashes.
+The bilingual INSTALL, FAQ and KNOWN_ISSUES files in `docs/` also remain included, unchanged.
+Future critical installation-document changes need an explicit repack and updated checksums.

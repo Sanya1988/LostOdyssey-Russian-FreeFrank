@@ -14,7 +14,12 @@
 
 This is an unofficial fan translation, not affiliated with or endorsed by the original game's rightsholders or FreeFrank.
 Original game data and the FreeFrank program must be obtained separately. There are no discs, original archives, EXE/DLL,
-audio, screenshots or native-derived graphical replacements in this package.
+audio, screenshots or native-derived graphical replacements in the installation ZIPs.
+
+The repository documentation separately contains four owner-supplied gameplay screenshots in
+`docs/screenshots/`. They depict copyrighted game content; no permission or open license for that
+content is claimed. Their publication remains subject to legal review and owner approval.
+See [screenshot provenance](docs/screenshots/README.md) and [license scope](LICENSE.md).
 
 No claim is made that Microsoft's Game Content Usage Rules authorize this translation:
 https://www.xbox.com/en-US/developers/rules . Their conditions, including restrictions on reverse-engineering access,
