@@ -1,6 +1,6 @@
 # Lost Odyssey — Russian Language Pack
 
-v0.1.0-beta
+v0.2.0-beta
 
 Unofficial Russian text localization for [FreeFrank LostOdysseyRecomp](https://github.com/freefrank/LostOdysseyRecomp).
 
@@ -12,13 +12,13 @@ All 34 translated Dreams are available only as a separate EXPERIMENTAL installat
 Rights in the derivative translation remain unresolved; see LICENSE.md.
 It adapts the existing RU 0.5.1 canonical translation; no separate public edition has been written.
 
-The default pack provides **27,951 JSON keys in 536 resources and 11 LOFONT**:
+The default pack provides **28,040 JSON keys in 536 resources and 12 LOFONT**:
 main in-game menus, dialogue, story subtitles, items/descriptions, supported spell names,
 skills, actions, selected locations, tutorials and some system messages. These numbers are not a completion percentage.
 
 All 34 Dreams have Russian text, but their layout has severe overlaps, broken wrapping and animation limitations.
 The default pack keeps original Dream fallback. An optional **EXPERIMENTAL** add-on adds 7,802 keys for those 34 Dreams.
-Combined scope is 35,753 keys / 570 resources. Nine opening-story captions are separate and stay in the default pack.
+Combined scope is 35,842 keys / 570 resources. Nine opening-story captions are separate and stay in the default pack.
 
 The owner selectively checked RU 0.5.1 on v1.0.4: launch/save loading, skill names containing %, dialogue/subtitles,
 items, some magic, actions, locations and sampled Dreams. Automated readers checked all four discs.
@@ -34,3 +34,5 @@ For a bug, report exact FreeFrank/pack version, disc, location, screen, nearby t
 Remove personal information; do not upload game files, saves or full dumps. Use [this project's Issues](https://github.com/Sanya1988/LostOdyssey-Russian-FreeFrank/issues).
 
 [FAQ](docs/FAQ.en.md) · Translation/add-on removal: [instructions](docs/INSTALL.en.md).
+
+This Beta adds 64 spell names, 15 native system messages and six TITLE labels. FreeFrank v1.0.6 and newer builds have not been runtime-tested. All-Stonus and UI/Dream layout issues remain.

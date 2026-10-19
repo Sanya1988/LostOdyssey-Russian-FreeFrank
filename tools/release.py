@@ -14,7 +14,7 @@ import zipfile
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 BASE=ROOT/'package'
 ADDON=ROOT/'optional/experimental-dreams'
-VERSION='0.1.0-beta'
+VERSION='0.2.0-beta'
 ALLOWED={'.json','.ini','.lofont','.txt','.md','.py','.yml','.csv','.gitignore'}
 SECRET=re.compile(rb'(?:github_pat_[A-Za-z0-9_]{30,}|gh[pousr]_[A-Za-z0-9]{30,}|-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----)')
 
@@ -74,15 +74,24 @@ def validate():
         counts[label]=dict(keys=keys,text_resources=resources,lofonts=fonts,files=len(rows))
     ini=dict(line.split('=',1) for line in (BASE/'mods/ru/language.ini').read_text(encoding='utf-8').splitlines() if line and not line.startswith(('#',';')))
     require(ini==dict(id='ru',name='Russian',base='int'),'language pack manifest')
-    require(counts['base']['keys']==27951 and counts['base']['text_resources']==536 and counts['base']['lofonts']==11,'base counts')
+    require(counts['base']['keys']==28040 and counts['base']['text_resources']==536 and counts['base']['lofonts']==12,'base counts')
     require(counts['experimental_dreams']['keys']==7802 and counts['experimental_dreams']['text_resources']==34,'Dream counts')
     require(all('/event/1000/int/dr_' not in name for name in files(BASE)),'Dream overrides in default package')
+    dream_files=files(ADDON)
+    require(all(name=='README.md' or name.startswith('mods/ru/text/bin/xenon/event/1000/int/dr_') and name.endswith('_int.xxx.json') for name in dream_files),'non-Dream payload in optional add-on')
+    require(not (set(files(BASE)) & {name for name in dream_files if '/text/' in name}),'Dream add-on overwrites base text')
+    metadata=json.loads((BASE/'mods/ru/release.json').read_bytes(),object_pairs_hook=unique)
+    require(metadata['version']==VERSION and metadata['translated_json_keys']==counts['base']['keys'] and metadata['lofont_files']==counts['base']['lofonts'],'release metadata mismatch')
     require((BASE/'mods/ru/licenses/NotoSans-OFL.txt').is_file(),'missing OFL')
     expected=ROOT/'PUBLIC_FILE_MANIFEST.csv'
     if expected.exists():
+        seen=set()
         with expected.open(encoding='utf-8',newline='') as f:
             for row in csv.DictReader(f):
+                require(row['path'] not in seen,'duplicate manifest path');seen.add(row['path'])
                 p=ROOT/row['path'];require(p.is_file() and p.stat().st_size==int(row['bytes']) and sha(p.read_bytes())==row['sha256'],'manifest mismatch: '+row['path'])
+        actual={name for name in files(ROOT) if not name.startswith('.git/') and name!='PUBLIC_FILE_MANIFEST.csv'}
+        require(seen==actual,'manifest file coverage mismatch')
     return counts
 
 def package_entries(addon=False):
@@ -102,7 +111,7 @@ def write_zip(destination,entries):
     with zipfile.ZipFile(destination,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=9) as z:
         for name,data in sorted(entries.items()):
             require(not name.startswith('/') and '..' not in pathlib.PurePosixPath(name).parts,'unsafe ZIP path')
-            info=zipfile.ZipInfo(name,date_time=(2026,10,18,0,0,0));info.create_system=3;info.external_attr=0o100644<<16
+            info=zipfile.ZipInfo(name,date_time=(2026,10,19,0,0,0));info.create_system=3;info.external_attr=0o100644<<16
             info.compress_type=zipfile.ZIP_DEFLATED;z.writestr(info,data,compress_type=zipfile.ZIP_DEFLATED,compresslevel=9)
     with zipfile.ZipFile(destination) as z:
         require(z.testzip() is None,'ZIP CRC failure')

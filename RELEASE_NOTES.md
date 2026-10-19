@@ -1,3 +1,38 @@
+# v0.2.0-beta — Release Notes / Примечания к выпуску
+
+## Русский
+
+Автор русификатора: **Sanya1988**. Неофициальный data-only language pack для официального LostOdysseyRecomp от FreeFrank / Windows x64. Проверена работа на v1.0.4; v1.0.6 и более новые сборки пока требуют отдельного runtime-теста. Спасибо FreeFrank и участникам его проекта за порт и поддержку language packs; их одобрение перевода не заявляется.
+
+- 64 дополнительных русских названия магии и 15 native сообщений загрузки/сохранения, хранилища и профиля.
+- Шесть принятых TITLE-подписей, UI-FIT-01/02, компактные характеристики и заголовки «Заклинания», «Ур.», «Вр.».
+- Сохранены диалоги, субтитры, предметы, навыки с `%`, боевые команды, локации и действия из RU 0.5.1.
+- Основной пакет: **28 040 ключей / 536 текстовых ресурсов / 12 LOFONT**; 34 сна — отдельное EXPERIMENTAL дополнение, **7 802 ключа / 34 ресурса**. Вместе 35 842 ключа / 570 ресурсов. Количество ключей не означает процент готовности.
+- Native таблица содержит 153 непустых magic ID, из них 152 имеют русский текст. Все 50 составных рецептов получают русский результат и обе колонки компонентов; эти контексты не считаются отдельными заклинаниями.
+
+В Settings → System → Game language выбирайте **Russian**, сохраните настройки и полностью перезапустите игру. Для обновления сначала перенесите старую `mods/ru` за пределы `mods`, затем установите чистый основной ZIP. Сны ставятся отдельно поверх пакета той же версии. Для их удаления полностью замените `mods/ru` чистым основным пакетом; не удаляйте сохранения или достижения.
+
+**Ограничения:** All-Stonus остаётся английским; некоторые длинные имена и UI-поля переполняются. «Поток жизни III», «Слабость стихий» и пять длинных составных имён требуют особого внимания. Host UI не полностью переведён; XMB ограничивает часть локаций. В экспериментальных снах серьёзные наложения и проблемы анимации не исправлены. Неудачные новые geometry, Reading Mode, engine patches, EXE/DLL и графический мод не включены. Новая магия утверждена для Beta, но визуально проверены не все контексты. Полного прохождения нет.
+
+Оригинальная игра не входит. Письменное разрешение правообладателей на производный текст и изображения не заявляется; LEGAL_REVIEW_REQUIRED сохраняется. Noto Sans additions — SIL OFL 1.1; см. LICENSE.md и THIRD_PARTY_NOTICES.md.
+
+## English
+
+Russian language pack author: **Sanya1988**. Unofficial data-only localization for official FreeFrank LostOdysseyRecomp / Windows x64. Tested with v1.0.4; v1.0.6 and later still need separate runtime testing. Thanks to FreeFrank and its contributors for the port and language-pack support; their endorsement is not claimed.
+
+- 64 additional Russian spell names and 15 native save/load, storage and profile messages.
+- Six accepted TITLE labels, UI-FIT-01/02, compact statistics and headings; dialogue, subtitles, items, `%` skill-name fixes, combat commands, locations and actions are retained.
+- Base: **28,040 keys / 536 text resources / 12 LOFONT**. Optional 34-Dream EXPERIMENTAL add-on: **7,802 keys / 34 resources**. Combined: 35,842 keys / 570 resources, not a completion percentage.
+- 152 of 153 nonblank native magic IDs have Russian names, including auxiliary/alias records. All 50 composite recipes use Russian results and both ingredient columns; contextual occurrences are not additional spells.
+
+Close the game, move the entire old `mods/ru` outside `mods`, then extract the base ZIP beside the FreeFrank EXE. Select **Settings → System → Game language → Russian**, save and fully restart. Install optional Dreams over the same base version. To remove Dreams, replace the entire `mods/ru` with a clean base; keep saves/achievements.
+
+**Limitations:** All-Stonus remains English. Long names/UI fields can overflow, especially IDs 102/121 and five longer composite names. Host UI and XMB coverage remain incomplete. Optional Dreams retain serious overlap and animation problems. Rejected geometry experiments, Reading Mode, engine patches, EXE/DLL and artwork mods are excluded. New magic is approved for Beta, not visually tested in every context; no full playthrough is claimed.
+
+Original game data is not included. Written rightsholder authorization for derivative text or depicted game content is not claimed; LEGAL_REVIEW_REQUIRED remains. Noto additions retain SIL OFL 1.1. See LICENSE.md and THIRD_PARTY_NOTICES.md.
+
+---
+
 # v0.1.0-beta — Release Notes / Примечания к выпуску
 
 ## Русский

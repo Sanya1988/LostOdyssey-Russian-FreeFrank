@@ -5,7 +5,7 @@ This language pack has **no blanket license**. Translation, tools and fonts have
 
 ## Fonts — confirmed / Шрифты — подтверждено
 
-The 11 LOFONT glyph additions are raster derivatives of Noto Sans 2.015.
+The 12 LOFONT glyph additions are raster derivatives of Noto Sans 2.015.
 Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic).
 They are provided under SIL Open Font License 1.1; the complete unchanged notice is
 `mods/ru/licenses/NotoSans-OFL.txt` in installation ZIPs

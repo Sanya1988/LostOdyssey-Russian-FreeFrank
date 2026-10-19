@@ -2,7 +2,7 @@
 
 ## Which file should I download?
 
-Install `LostOdyssey-Russian-Language-Pack-v0.1.0-beta.zip` from [GitHub Releases](https://github.com/Sanya1988/LostOdyssey-Russian-FreeFrank/releases).
+Install `LostOdyssey-Russian-Language-Pack-v0.2.0-beta.zip` from [GitHub Releases](https://github.com/Sanya1988/LostOdyssey-Russian-FreeFrank/releases).
 GitHub's automatic Source code archive is a repository snapshot, not the ready-to-install package.
 Obtain official [FreeFrank for Windows x64](https://github.com/freefrank/LostOdysseyRecomp/releases/latest) and your own original Lost Odyssey data separately.
 
@@ -37,7 +37,7 @@ Do not delete saves, achievements or engine files.
 
 ## Why is some text still English?
 
-Magic full/short conflicts, XMB pool limits, an unresolved Special consumer and some UI overflow remain.
+All-Stonus still lacks a distinct approved compact name. XMB pool limits, an unresolved Special consumer and some UI overflow remain; 64 additional spell names are now Russian.
 See KNOWN_ISSUES. Blank skill names containing `%` were fixed in RU 0.5.1; that old issue is not claimed as an unfixed general Beta problem.
 
 ## Does this include an EXE, voices, textures or the game?

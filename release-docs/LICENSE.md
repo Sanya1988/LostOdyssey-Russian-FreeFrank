@@ -5,7 +5,7 @@ This language pack has **no blanket license**. Translation, tools and fonts have
 
 ## Fonts — confirmed / Шрифты — подтверждено
 
-The 11 LOFONT glyph additions are raster derivatives of Noto Sans 2.015.
+The 12 LOFONT glyph additions are raster derivatives of Noto Sans 2.015.
 Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic).
 They are provided under SIL Open Font License 1.1; the complete unchanged notice is
 `mods/ru/licenses/NotoSans-OFL.txt` in installation ZIPs
@@ -31,6 +31,19 @@ No permission from Microsoft, Mistwalker, feelplus or FreeFrank is claimed. Poss
 They do not incorporate FreeFrank source or private converter code and use only Python's standard library.
 No open license is granted here for the packaging tool, CI definition or documentation.
 This absence of a code/documentation license does not change the separate OFL grant for the fonts.
+
+## Gameplay screenshots — legal review required / Игровые кадры — требуется проверка
+
+The four PNG files in `docs/screenshots/` are game-window crops supplied by the project owner.
+They show Lost Odyssey rendered in official FreeFrank, not independently authored free artwork.
+Their capture provenance and versions are recorded in [the screenshot guide](https://github.com/Sanya1988/LostOdyssey-Russian-FreeFrank/blob/v0.2.0-beta/docs/screenshots/README.md).
+Capture ownership does not establish permission to distribute the underlying game content.
+No open license or rightsholder endorsement is assigned to these screenshots.
+Rights to distribute the depicted game content have not been established (**LEGAL_REVIEW_REQUIRED**).
+The screenshots are repository documentation only and are excluded from both installation ZIPs.
+
+Кадры предоставлены владельцем проекта, но права на распространение изображённых игровых материалов не подтверждены. Этот вопрос рассматривается отдельно от OFL-шрифтов,
+собственного кода и производного текста перевода.
 
 ## External FreeFrank / Внешний FreeFrank
 

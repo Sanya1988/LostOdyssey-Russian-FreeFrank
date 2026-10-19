@@ -8,7 +8,7 @@ This language pack is intended for the official LostOdysseyRecomp from FreeFrank
 3. Close the game. If `mods/ru` already exists, move the **entire folder outside `mods`** as a backup.
    Do not merge the default pack with an older pack: leftover Dream files would keep experimental overrides active.
    Do not leave another `language.ini` with `id=ru` in a second folder under `mods`.
-4. Extract [LostOdyssey-Russian-Language-Pack-v0.1.0-beta.zip](https://github.com/Sanya1988/LostOdyssey-Russian-FreeFrank/releases/download/v0.1.0-beta/LostOdyssey-Russian-Language-Pack-v0.1.0-beta.zip) into the folder containing `LostOdysseyRecomp.exe`.
+4. Extract [LostOdyssey-Russian-Language-Pack-v0.2.0-beta.zip](https://github.com/Sanya1988/LostOdyssey-Russian-FreeFrank/releases/download/v0.2.0-beta/LostOdyssey-Russian-Language-Pack-v0.2.0-beta.zip) into the folder containing `LostOdysseyRecomp.exe`.
    The resulting paths must be `mods/ru/language.ini`, `mods/ru/text`, `mods/ru/fonts`, `mods/ru/licenses`.
    Avoid `mods/mods` or an extra archive-name directory.
 5. Start the game, open **Settings → System → Game language**, select **Russian**, and save the setting.

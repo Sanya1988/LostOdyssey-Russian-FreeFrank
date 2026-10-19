@@ -1,6 +1,6 @@
 # 34 Russian Dreams — EXPERIMENTAL / ЭКСПЕРИМЕНТАЛЬНО
 
-Not standalone. Requires the default language pack **v0.1.0-beta** and official FreeFrank for Windows x64.
+Not standalone. Requires the default language pack **v0.2.0-beta** and official FreeFrank for Windows x64.
 
 This language pack is intended for the official LostOdysseyRecomp from FreeFrank (Windows x64). It has been tested on v1.0.4. Newer versions may be compatible but have not yet been tested. FreeFrank updates may require the language pack to be adapted.
 Close the game, install the clean base pack first, then extract the experimental add-on into the same game folder.

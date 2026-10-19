@@ -1,32 +1,22 @@
-# Known issues
+# Known issues — v0.2.0 Beta
 
 ## Major limitations
 
-- **DREAM_LAYOUT_POLISH_REQUIRED:** the optional 34-Dream add-on has confirmed overlapping fragments,
-  broken wrapping/words and animation limitations. Some pages can be hard to read.
-  Stock `.x/.y/.w/.h/.scale` cannot reproduce every per-character effect. The default ZIP uses original Dream fallback.
-  No layout fix is claimed; all canonical Russian Dream text remains preserved.
-- **UI layout:** MenuDat 121/153 labels and 10221 have confirmed overlaps. Heading 3045, value 21037 and other long strings
-  need visual checks. Global metrics and the executable are unchanged; compact stats are not checked for every value combination.
+- **Dreams:** the separate 34-story EXPERIMENTAL add-on retains severe overlap, broken wrapping/words and animation problems. Some pages are hard to read. The base ZIP uses original Dream fallback. Rejected geometry experiments, Reading Mode and Dream TimePitch API are excluded.
+- **UI:** Type Info/Scroll (121/153), equipment Attack Speed (10221), long weapon/item names including the Magic Rifle of Aneira still have overflow problems. Compact statistics and headings are improved but not tested in every state.
+- **Magic layout:** component-left names 102/121 (Поток жизни III / Слабость стихий) measure 191.7/211.5px against a 188px gap including a 2px guard. Approved Russian wording is retained with visual review still pending. Five names 156–160 use longer canonical full forms because their short forms contain the composite parser's colon delimiter.
 
-## Incomplete coverage and cosmetic issues
+## Incomplete coverage
 
-- **Magic full/short:** 69 conflicting spell IDs have different canonical full/short names but one shared stock key.
-  Some names therefore remain English; other context-dependent exceptions are retained.
-- **XMB:** 387 keys fit; 550 further bindings are deferred. Full coverage needs a 74,141-byte pool, above the 65,536 limit;
-  the selected pool is 64,990 bytes. Some locations remain English.
-- Old saves can retain an English location-name snapshot in save/load. The pack does not rewrite save files.
-- **HOST_UI_UNTRANSLATED:** Press Start, New Game, first-run setup and language-selection host UI still need canonical wording.
-  The Russian language option does not imply that its host menu is translated.
-- The observed main-battle `Special` label still lacks a proven consumer binding.
-- **Graphics excluded:** Perfect/Good/Bad, MISS/GUARD/DAMAGE GUARD/DELAY/DAMAGE UP, BATTLE-LOG and Loading.
-  Native-derived atlases are not distributed; a stock Loading replacement route is not proven.
-- Modified JSON may retain names, Latin text and original fragments. This is not a complete original export or complete localization.
-- Dream italics currently use upright Cyrillic. Not every subtitle timing or late-game scene was individually checked.
+- **Magic:** 152 of 153 nonblank native IDs now have Russian names. There are 152 distinct school/name-pool identities; IDs 110/132 share the Powera pool. These counts include auxiliary/alias records and are not a count of unique player-accessible spells or completion percentage. 64 of the previous 65 English full/short conflicts now receive Russian text. All-Stonus (45) remains English because its compact name collides with All-Stone (180), which has a different effect. All 50 native composite recipes have Russian results and both component columns. A shared stock key cannot supply a different full/short form for each screen.
+- Existing duplicate Russian labels for Vanish/Lost belong to different schools; Powera IDs 110/132 share one native name pool. No new independent wording has been assigned.
+- **Host UI:** six native TITLE labels are translated; Settings, first-run setup and some FreeFrank host UI remain English. Select **Russian** in Game language: the Cyrillic selector name is not supported by the stock v1.0.4 settings font. Game LOFONT does not patch that host font.
+- **Save/load:** 15 native messages are added. Some profile notifications may be hidden by stock menu acceleration. Two Lv labels lack a separately reviewed mapping. Old save slots can retain an English location-name snapshot; saves are not rewritten.
+- **XMB:** 387 keys fit; 550 further bindings remain deferred. Full coverage needs 74,141 bytes above the 65,536 pool limit; the selected pool uses 64,990 bytes. Some locations remain English.
+- The observed main-battle **Special** consumer still lacks a proven binding. Similar text in other contexts is not substituted by dictionary matching.
+- **Graphics excluded:** Perfect/Good/Bad, MISS/GUARD/DAMAGE GUARD/DELAY/DAMAGE UP, BATTLE-LOG and Loading. Native-derived ru-local-artwork is not distributed.
+- Modified JSON can retain names, Latin text and original fragments; this is not a full English export or complete localization. Dream italics currently use upright Cyrillic; not every subtitle timing or late-game scene was checked individually.
 
-Missing skill names containing `%` were fixed in RU 0.5.1 and selectively owner-verified;
-this is not a claim to fix every possible blank label. Automated format PASS is not complete gameplay PASS.
+The `%` skill-name issue was fixed in RU 0.5.1 and selectively owner-verified. TITLE labels were accepted, UI-FIT selectively accepted, and new magic approved for Beta. This is not a complete gameplay PASS: four-disc offline checks do not replace visual testing of every string.
 
-## Language name in settings
-
-Select **Russian** in Game language. The Cyrillic name renders as question marks in official v1.0.4 because its host UI font lacks Cyrillic and does not use game LOFONT additions. This is a settings-font limitation; pack ID `ru`, base `int` and Russian game text are unchanged.
+Official FreeFrank v1.0.4 / Windows x64 is the tested version. v1.0.6 and newer versions may be compatible but still require separate runtime testing. This pack does not automatically update the game.

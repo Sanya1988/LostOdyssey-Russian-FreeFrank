@@ -7,13 +7,13 @@
 **Unofficial Russian text localization for FreeFrank LostOdysseyRecomp.** This language pack is intended for the official LostOdysseyRecomp from FreeFrank (Windows x64). It has been tested on v1.0.4. Newer versions may be compatible but have not yet been tested. FreeFrank updates may require the language pack to be adapted.
 No original game or modified executable is included. Translation is in development; no complete playthrough/string-by-string approval is claimed.
 
-**v0.1.0-beta** · [Русский](README.ru.md) · [English](README.en.md) · [Установка](docs/INSTALL.ru.md) · [Install](docs/INSTALL.en.md)
+**v0.2.0-beta** · [Русский](README.ru.md) · [English](README.en.md) · [Установка](docs/INSTALL.ru.md) · [Install](docs/INSTALL.en.md)
 
-Default: **27,951 keys / 536 text resources / 11 LOFONT**. Russian dialogue, story subtitles, in-game menus,
+Default: **28,040 keys / 536 text resources / 12 LOFONT**. Russian dialogue, story subtitles, in-game menus,
 items/descriptions, supported magic/skills, battles, actions, selected locations and tutorials.
 The separate **EXPERIMENTAL** add-on contains all **34 translated Dreams / 7,802 keys**.
 Dream text can overlap, wrap badly or animate incorrectly. The main ZIP uses the original Dream fallback and works independently.
-Combined scope: 35,753 keys / 570 resources; this is not a completion percentage.
+Combined scope: 35,842 keys / 570 resources; this is not a completion percentage.
 
 - [FAQ (RU)](docs/FAQ.ru.md) · [FAQ (EN)](docs/FAQ.en.md)
 - [Known issues (RU)](docs/KNOWN_ISSUES.ru.md) · [Known issues (EN)](docs/KNOWN_ISSUES.en.md)
@@ -34,3 +34,5 @@ Thanks to FreeFrank and its project contributors for the port and language-pack 
 This is a fan project, not affiliated with or endorsed by Microsoft, Mistwalker, feelplus or FreeFrank.
 No blanket open license is assigned to the translation. Noto additions retain SIL OFL 1.1.
 **Derivative-text rights: LEGAL_REVIEW_REQUIRED.** See LICENSE.md for the separate text, font and tooling rights.
+
+Новая Beta:64 дополнительных имени магии,15 служебных сообщений и6 TITLE labels. FreeFrank v1.0.6 и более новые версии не проверены в игре. All-Stonus и риски UI/Dream layout остаются.
