@@ -14,7 +14,7 @@ import zipfile
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 BASE=ROOT/'package'
 ADDON=ROOT/'optional/experimental-dreams'
-VERSION='0.2.0-beta'
+VERSION='0.3.0-beta'
 ALLOWED={'.json','.ini','.lofont','.txt','.md','.py','.yml','.csv','.gitignore'}
 SECRET=re.compile(rb'(?:github_pat_[A-Za-z0-9_]{30,}|gh[pousr]_[A-Za-z0-9]{30,}|-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----)')
 
@@ -74,7 +74,7 @@ def validate():
         counts[label]=dict(keys=keys,text_resources=resources,lofonts=fonts,files=len(rows))
     ini=dict(line.split('=',1) for line in (BASE/'mods/ru/language.ini').read_text(encoding='utf-8').splitlines() if line and not line.startswith(('#',';')))
     require(ini==dict(id='ru',name='Russian',base='int'),'language pack manifest')
-    require(counts['base']['keys']==28040 and counts['base']['text_resources']==536 and counts['base']['lofonts']==12,'base counts')
+    require(counts['base']['keys']==28058 and counts['base']['text_resources']==536 and counts['base']['lofonts']==12,'base counts')
     require(counts['experimental_dreams']['keys']==7802 and counts['experimental_dreams']['text_resources']==34,'Dream counts')
     require(all('/event/1000/int/dr_' not in name for name in files(BASE)),'Dream overrides in default package')
     dream_files=files(ADDON)
@@ -111,7 +111,7 @@ def write_zip(destination,entries):
     with zipfile.ZipFile(destination,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=9) as z:
         for name,data in sorted(entries.items()):
             require(not name.startswith('/') and '..' not in pathlib.PurePosixPath(name).parts,'unsafe ZIP path')
-            info=zipfile.ZipInfo(name,date_time=(2026,10,19,0,0,0));info.create_system=3;info.external_attr=0o100644<<16
+            info=zipfile.ZipInfo(name,date_time=(2026,10,20,0,0,0));info.create_system=3;info.external_attr=0o100644<<16
             info.compress_type=zipfile.ZIP_DEFLATED;z.writestr(info,data,compress_type=zipfile.ZIP_DEFLATED,compresslevel=9)
     with zipfile.ZipFile(destination) as z:
         require(z.testzip() is None,'ZIP CRC failure')

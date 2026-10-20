@@ -2,9 +2,9 @@
 
 **Unofficial Russian text translation for [FreeFrank LostOdysseyRecomp](https://github.com/freefrank/LostOdysseyRecomp).**
 
-**v0.2.0 Beta | Windows x64**
+**v0.3.0 Beta | Windows x64**
 
-This language pack is intended for the official LostOdysseyRecomp from FreeFrank (Windows x64). It has been tested on v1.0.4. Newer versions may be compatible but have not yet been tested. FreeFrank updates may require the language pack to be adapted.
+This language pack is intended for the official LostOdysseyRecomp from FreeFrank (Windows x64). Tested in-game with the official FreeFrank v1.0.6 on Windows x64, based on selective verification by the project owner. A complete playthrough and verification of every translated string are not claimed. Newer versions have not yet been tested and may require the language pack to be adapted.
 
 Translation is in development. No original game or modified EXE is included. Gameplay checks were selective;
 no complete playthrough or review of every string is claimed. **All 34 Russian Dreams are a separate experimental add-on.**
@@ -17,20 +17,21 @@ Download the main language pack from [GitHub Releases](https://github.com/Sanya1
 
 | File | Purpose |
 | --- | --- |
-| **[LostOdyssey-Russian-Language-Pack-v0.2.0-beta.zip](https://github.com/Sanya1988/LostOdyssey-Russian-FreeFrank/releases/download/v0.2.0-beta/LostOdyssey-Russian-Language-Pack-v0.2.0-beta.zip)** | **Start here:** the ready-to-install main pack; works without the Dream add-on. |
-| [LostOdyssey-Russian-Dreams-v0.2.0-beta-EXPERIMENTAL.zip](https://github.com/Sanya1988/LostOdyssey-Russian-FreeFrank/releases/download/v0.2.0-beta/LostOdyssey-Russian-Dreams-v0.2.0-beta-EXPERIMENTAL.zip) | Optional 34-Dream add-on for the same base version; serious layout issues remain. |
-| [SHA256SUMS.txt](https://github.com/Sanya1988/LostOdyssey-Russian-FreeFrank/releases/download/v0.2.0-beta/SHA256SUMS.txt) | Checksums for both installation ZIPs. |
+| **[LostOdyssey-Russian-Language-Pack-v0.3.0-beta.zip](https://github.com/Sanya1988/LostOdyssey-Russian-FreeFrank/releases/download/v0.3.0-beta/LostOdyssey-Russian-Language-Pack-v0.3.0-beta.zip)** | **Start here:** the ready-to-install main pack; works without the Dream add-on. |
+| [LostOdyssey-Russian-Dreams-v0.3.0-beta-EXPERIMENTAL.zip](https://github.com/Sanya1988/LostOdyssey-Russian-FreeFrank/releases/download/v0.3.0-beta/LostOdyssey-Russian-Dreams-v0.3.0-beta-EXPERIMENTAL.zip) | Optional 34-Dream add-on for the same base version; serious layout issues remain. |
+| [SHA256SUMS.txt](https://github.com/Sanya1988/LostOdyssey-Russian-FreeFrank/releases/download/v0.3.0-beta/SHA256SUMS.txt) | Checksums for both installation ZIPs. |
 
-Version **v0.2.0-beta**: [release page](https://github.com/Sanya1988/LostOdyssey-Russian-FreeFrank/releases/tag/v0.2.0-beta).
+Version **v0.3.0-beta**: [release page](https://github.com/Sanya1988/LostOdyssey-Russian-FreeFrank/releases/tag/v0.3.0-beta).
 
 GitHub's **Source code** and **Code → Download ZIP** are repository snapshots, not the installation ZIP.
 
-## New in v0.2.0 Beta
+## New in v0.3.0 Beta
 
-- 64 additional Russian spell names, with Russian results and both ingredient columns in all 50 native composite recipes.
-- 15 additional save/load, storage and profile messages.
-- Six TITLE labels, compact statistics and menu headings; the `%` skill-name fix is retained.
-- Tested with FreeFrank v1.0.4. v1.0.6 and later builds still require separate runtime testing. Not every new magic context has been visually checked; overflow remains possible.
+- Accepted compact weapon, ring, accessory, material and key-item names, retaining full descriptions. A ring's `+` suffix means its enhanced variant.
+- Fixes for names overlapping quantities, Attack Speed, Type/Scroll, filter/sort labels and the skill-slot counter.
+- Compact spell names and composite ingredients; shorter map entries, 11 additional location labels and four missing Kelolon bindings.
+- Of 297 editorial proposals, 231 compact forms are delivered and 66 full names retained. Including later checks, 303 native keys changed and 18 were added versus v0.2; this is not a completion percentage.
+- Selectively tested in-game by the owner with official FreeFrank v1.0.6 / Windows x64. The previous 64 additional spell names, 15 system messages, six TITLE labels and `%` skill-name fix are retained.
 
 ## Quick start
 
@@ -39,7 +40,7 @@ Installation is ZIP extraction; compilation is not required.
 1. Get official **[FreeFrank for Windows x64](https://github.com/freefrank/LostOdysseyRecomp/releases/latest)**.
 2. Set it up with your own original Lost Odyssey game data, following FreeFrank's instructions. Confirm the game starts.
 3. Close the game. Move any existing **entire `mods/ru` folder outside `mods`** as a backup. Do not merge old and new base packs.
-4. Download **`LostOdyssey-Russian-Language-Pack-v0.2.0-beta.zip`** from [GitHub Releases](https://github.com/Sanya1988/LostOdyssey-Russian-FreeFrank/releases).
+4. Download **`LostOdyssey-Russian-Language-Pack-v0.3.0-beta.zip`** from [GitHub Releases](https://github.com/Sanya1988/LostOdyssey-Russian-FreeFrank/releases).
 5. Extract it into the folder containing **`LostOdysseyRecomp.exe`**, keeping the archive's directory structure.
 6. Confirm **`mods/ru/language.ini`** exists. Avoid `mods/mods/ru` or an extra archive-name folder.
 7. Start FreeFrank → **Settings → System → Game language → Russian**.
@@ -53,7 +54,7 @@ Installing this pack does not require moving or overwriting saves or achievement
 
 ### Optional Russian Dreams
 
-Close the game and extract **`LostOdyssey-Russian-Dreams-v0.2.0-beta-EXPERIMENTAL.zip`** into the same EXE folder,
+Close the game and extract **`LostOdyssey-Russian-Dreams-v0.3.0-beta-EXPERIMENTAL.zip`** into the same EXE folder,
 merging `mods/ru` with the installed base pack of the same version. Restart afterward.
 All 34 stories have Russian text, but **severe overlaps, bad wrapping, broken words and animation/presentation issues** remain.
 Some pages are difficult to read. The main ZIP keeps the original Dream fallback and works independently.
@@ -72,12 +73,12 @@ Russian dialogue and story subtitles; main in-game menus and some system message
 supported spell names and skills; combat messages/actions; selected locations and tutorials; Cyrillic glyph additions.
 No Russian voice-over or graphical replacement mod is included.
 
-The existing **RU 0.5.1** translation is the source. The base pack has **28,040 JSON keys / 536 text resources / 12 LOFONT**.
-The optional 34 Dreams add 7,802 keys; combined scope is 35,842 keys / 570 resources.
+The existing **RU 0.5.1** translation is the source. The base pack has **28,058 JSON keys / 536 text resources / 12 LOFONT**.
+The optional 34 Dreams add 7,802 keys; combined scope is 35,860 keys / 570 resources.
 Nine opening-story captions are separate and stay in the base. Counts are not a completion percentage.
 
 The owner selectively checked launch/save loading, `%` skill names, dialogue/subtitles, items, some magic,
-actions, locations and sampled Dreams on v1.0.4. Format checks covered all four discs.
+actions, locations and sampled Dreams on official v1.0.6. These were selective owner checks. Offline format checks covered all four discs.
 Other versions/platforms require separate testing.
 
 - Long UI labels may overlap or overflow.

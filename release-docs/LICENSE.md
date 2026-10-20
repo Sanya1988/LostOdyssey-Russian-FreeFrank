@@ -36,7 +36,7 @@ This absence of a code/documentation license does not change the separate OFL gr
 
 The four PNG files in `docs/screenshots/` are game-window crops supplied by the project owner.
 They show Lost Odyssey rendered in official FreeFrank, not independently authored free artwork.
-Their capture provenance and versions are recorded in [the screenshot guide](https://github.com/Sanya1988/LostOdyssey-Russian-FreeFrank/blob/v0.2.0-beta/docs/screenshots/README.md).
+Their capture provenance and versions are recorded in [the screenshot guide](https://github.com/Sanya1988/LostOdyssey-Russian-FreeFrank/blob/v0.3.0-beta/docs/screenshots/README.md).
 Capture ownership does not establish permission to distribute the underlying game content.
 No open license or rightsholder endorsement is assigned to these screenshots.
 Rights to distribute the depicted game content have not been established (**LEGAL_REVIEW_REQUIRED**).

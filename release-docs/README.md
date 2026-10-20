@@ -1,19 +1,19 @@
 # Lost Odyssey — Russian Language Pack
 
 **Неофициальная русская текстовая локализация для [LostOdysseyRecomp от FreeFrank](https://github.com/freefrank/LostOdysseyRecomp).**
-Русификатор предназначен для официального LostOdysseyRecomp от FreeFrank (Windows x64). Проверена работа на версии v1.0.4. Более новые версии могут быть совместимы, но пока не проверены. Обновления FreeFrank могут потребовать адаптации русификатора. Оригинальная игра и изменённый EXE в пакет не входят.
+Русификатор предназначен для официального LostOdysseyRecomp от FreeFrank (Windows x64). Проверено в игре на официальном FreeFrank v1.0.6 для Windows x64. Основание — выборочная игровая проверка владельца; полное прохождение и проверка каждой строки не заявляются. Более новые версии пока не проверены и могут потребовать адаптации русификатора. Оригинальная игра и изменённый EXE в пакет не входят.
 Перевод развивается; полное прохождение и проверка каждой строки не подтверждены.
 
-**Unofficial Russian text localization for FreeFrank LostOdysseyRecomp.** This language pack is intended for the official LostOdysseyRecomp from FreeFrank (Windows x64). It has been tested on v1.0.4. Newer versions may be compatible but have not yet been tested. FreeFrank updates may require the language pack to be adapted.
+**Unofficial Russian text localization for FreeFrank LostOdysseyRecomp.** This language pack is intended for the official LostOdysseyRecomp from FreeFrank (Windows x64). Tested in-game with the official FreeFrank v1.0.6 on Windows x64, based on selective verification by the project owner. A complete playthrough and verification of every translated string are not claimed. Newer versions have not yet been tested and may require the language pack to be adapted.
 No original game or modified executable is included. Translation is in development; no complete playthrough/string-by-string approval is claimed.
 
-**v0.2.0-beta** · [Русский](README.ru.md) · [English](README.en.md) · [Установка](docs/INSTALL.ru.md) · [Install](docs/INSTALL.en.md)
+**v0.3.0-beta** · [Русский](README.ru.md) · [English](README.en.md) · [Установка](docs/INSTALL.ru.md) · [Install](docs/INSTALL.en.md)
 
-Default: **28,040 keys / 536 text resources / 12 LOFONT**. Russian dialogue, story subtitles, in-game menus,
+Default: **28,058 keys / 536 text resources / 12 LOFONT**. Russian dialogue, story subtitles, in-game menus,
 items/descriptions, supported magic/skills, battles, actions, selected locations and tutorials.
 The separate **EXPERIMENTAL** add-on contains all **34 translated Dreams / 7,802 keys**.
 Dream text can overlap, wrap badly or animate incorrectly. The main ZIP uses the original Dream fallback and works independently.
-Combined scope: 35,842 keys / 570 resources; this is not a completion percentage.
+Combined scope: 35,860 keys / 570 resources; this is not a completion percentage.
 
 - [FAQ (RU)](docs/FAQ.ru.md) · [FAQ (EN)](docs/FAQ.en.md)
 - [Known issues (RU)](docs/KNOWN_ISSUES.ru.md) · [Known issues (EN)](docs/KNOWN_ISSUES.en.md)
@@ -35,4 +35,4 @@ This is a fan project, not affiliated with or endorsed by Microsoft, Mistwalker,
 No blanket open license is assigned to the translation. Noto additions retain SIL OFL 1.1.
 **Derivative-text rights: LEGAL_REVIEW_REQUIRED.** See LICENSE.md for the separate text, font and tooling rights.
 
-Новая Beta:64 дополнительных имени магии,15 служебных сообщений и6 TITLE labels. FreeFrank v1.0.6 и более новые версии не проверены в игре. All-Stonus и риски UI/Dream layout остаются.
+v0.3.0 Beta: принятые короткие имена предметов и навыков, исправления боевых подписей, магии, карты и Келолона. Проверено владельцем на официальном FreeFrank v1.0.6; All-Stonus и ограничения UI/Dream layout сохраняются.

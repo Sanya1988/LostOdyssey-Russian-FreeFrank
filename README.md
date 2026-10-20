@@ -2,9 +2,9 @@
 
 **Неофициальный русский текстовый перевод для [LostOdysseyRecomp от FreeFrank](https://github.com/freefrank/LostOdysseyRecomp).**
 
-**v0.2.0 Beta | Windows x64**
+**v0.3.0 Beta | Windows x64**
 
-Русификатор предназначен для официального LostOdysseyRecomp от FreeFrank (Windows x64). Проверена работа на версии v1.0.4. Более новые версии могут быть совместимы, но пока не проверены. Обновления FreeFrank могут потребовать адаптации русификатора.
+Русификатор предназначен для официального LostOdysseyRecomp от FreeFrank (Windows x64). Проверено в игре на официальном FreeFrank v1.0.6 для Windows x64. Основание — выборочная игровая проверка владельца; полное прохождение и проверка каждой строки не заявляются. Более новые версии пока не проверены и могут потребовать адаптации русификатора.
 
 Диалоги, субтитры, игровые меню, предметы, навыки и боевые сообщения — на русском в поддержанных ресурсах.
 
@@ -18,20 +18,21 @@
 
 | Файл | Для чего |
 | --- | --- |
-| **[LostOdyssey-Russian-Language-Pack-v0.2.0-beta.zip](https://github.com/Sanya1988/LostOdyssey-Russian-FreeFrank/releases/download/v0.2.0-beta/LostOdyssey-Russian-Language-Pack-v0.2.0-beta.zip)** | **Основной русификатор. Начните с него.** Работает без дополнения снов. |
-| [LostOdyssey-Russian-Dreams-v0.2.0-beta-EXPERIMENTAL.zip](https://github.com/Sanya1988/LostOdyssey-Russian-FreeFrank/releases/download/v0.2.0-beta/LostOdyssey-Russian-Dreams-v0.2.0-beta-EXPERIMENTAL.zip) | Необязательно: 34 русских сна. Требует основной пакет той же версии; есть серьёзные ошибки оформления. |
-| [SHA256SUMS.txt](https://github.com/Sanya1988/LostOdyssey-Russian-FreeFrank/releases/download/v0.2.0-beta/SHA256SUMS.txt) | Контрольные суммы двух установочных архивов. |
+| **[LostOdyssey-Russian-Language-Pack-v0.3.0-beta.zip](https://github.com/Sanya1988/LostOdyssey-Russian-FreeFrank/releases/download/v0.3.0-beta/LostOdyssey-Russian-Language-Pack-v0.3.0-beta.zip)** | **Основной русификатор. Начните с него.** Работает без дополнения снов. |
+| [LostOdyssey-Russian-Dreams-v0.3.0-beta-EXPERIMENTAL.zip](https://github.com/Sanya1988/LostOdyssey-Russian-FreeFrank/releases/download/v0.3.0-beta/LostOdyssey-Russian-Dreams-v0.3.0-beta-EXPERIMENTAL.zip) | Необязательно: 34 русских сна. Требует основной пакет той же версии; есть серьёзные ошибки оформления. |
+| [SHA256SUMS.txt](https://github.com/Sanya1988/LostOdyssey-Russian-FreeFrank/releases/download/v0.3.0-beta/SHA256SUMS.txt) | Контрольные суммы двух установочных архивов. |
 
-Версия **v0.2.0-beta**: [страница выпуска](https://github.com/Sanya1988/LostOdyssey-Russian-FreeFrank/releases/tag/v0.2.0-beta).
+Версия **v0.3.0-beta**: [страница выпуска](https://github.com/Sanya1988/LostOdyssey-Russian-FreeFrank/releases/tag/v0.3.0-beta).
 
 Для установки нужен **готовый ZIP языкового пакета из Releases**. Кнопка GitHub **Code → Download ZIP** и файлы **Source code** содержат исходники проекта, а не установочный архив.
 
-## Новое в v0.2.0 Beta
+## Новое в v0.3.0 Beta
 
-- 64 дополнительных русских названия магии; русские результаты и обе колонки компонентов всех 50 штатных составных рецептов.
-- 15 дополнительных служебных сообщений загрузки, сохранения, хранилища и профиля.
-- Шесть TITLE-подписей, компактные характеристики и заголовки «Заклинания», «Ур.», «Вр.»; сохранено исправление навыков с `%`.
-- Проверена работа на FreeFrank v1.0.4. v1.0.6 и более новые сборки пока требуют отдельного тестирования. Не все новые названия визуально проверены; переполнения ещё возможны.
+- Принятые короткие названия оружия, колец, аксессуаров, материалов и ключевых предметов; полные описания сохранены. У усиленных колец `+` означает «Усиленное».
+- Исправлены наложения имени и количества, подписи скорости атаки, «Тип»/«Прокрутка», фильтра/сортировки и числа ячеек навыков.
+- Уточнены имена магии и обе колонки составных рецептов; сокращены длинные пункты карты, добавлены 11 названий локаций и четыре пропущенные привязки имени «Келолон».
+- Из 297 редакционных предложений доставлена 231 короткая форма, 66 полных имён сохранены. С учётом последующих проверок относительно v0.2 изменены 303 и добавлены 18 native ключей; это не процент готовности.
+- Проверено владельцем в игре на официальном FreeFrank v1.0.6 / Windows x64, выборочно. Сохранены прежние 64 дополнительных имени магии, 15 служебных сообщений, шесть TITLE-подписей и исправление навыков с `%`.
 
 ## Скриншоты
 
@@ -40,7 +41,7 @@
 | Навыки — FreeFrank v1.0.4 | Карта — FreeFrank v1.0.4 |
 | --- | --- |
 | ![Русские названия навыков, включая проценты, в FreeFrank v1.0.4](docs/screenshots/skills-freefrank-v104.png) | ![Русские пункты назначения на карте FreeFrank v1.0.4](docs/screenshots/world-map-freefrank-v104.png) |
-| Названия с `%` отображаются. В верхней панели остаётся наложение подписи характеристики. | Названия локаций переведены частично; некоторые длинные подписи выходят за границы списка. |
+| Названия с `%` отображаются. Исторический кадр: показанное наложение характеристики исправлено в v0.3.0. | Исторический кадр: показанные длинные пункты карты сокращены в v0.3.0; часть локаций остаётся английской. |
 | **Получение предмета — FreeFrank v1.0.4** | **Диалог — FreeFrank v1.0.0, ранняя версия** |
 | ![Русское сообщение о получении предмета в FreeFrank v1.0.4](docs/screenshots/field-item-freefrank-v104.png) | ![Русский диалог с NPC в раннем FreeFrank v1.0.0](docs/screenshots/dialogue-freefrank-v100.png) |
 | Сообщение о получении предмета во время игры. | Кадр из предыдущего этапа; не является подтверждением работы этого диалога на v1.0.4. |
@@ -54,7 +55,7 @@
 1. Скачайте официальный **[FreeFrank для Windows x64](https://github.com/freefrank/LostOdysseyRecomp/releases/latest)**.
 2. Настройте его со своими оригинальными игровыми данными Lost Odyssey по инструкции FreeFrank. Сначала убедитесь, что игра запускается.
 3. **Полностью закройте игру.** Если уже есть папка `mods/ru`, перенесите её целиком в резервное место **за пределами `mods`**. Старую и новую версии основного пакета объединять не следует.
-4. Скачайте **`LostOdyssey-Russian-Language-Pack-v0.2.0-beta.zip`** из раздела [GitHub Releases](https://github.com/Sanya1988/LostOdyssey-Russian-FreeFrank/releases).
+4. Скачайте **`LostOdyssey-Russian-Language-Pack-v0.3.0-beta.zip`** из раздела [GitHub Releases](https://github.com/Sanya1988/LostOdyssey-Russian-FreeFrank/releases).
 5. Распакуйте архив **в папку, где находится `LostOdysseyRecomp.exe`**, сохраняя структуру каталогов.
 6. Проверьте итоговый путь: **`mods/ru/language.ini`**. Не должно быть лишней папки с названием архива или пути `mods/mods/ru`.
 7. Запустите FreeFrank. Откройте **Settings → System → Game language** и выберите **Russian**.
@@ -81,7 +82,7 @@
 
 Все **34 рассказа** переведены, но вынесены в отдельный **EXPERIMENTAL** ZIP. Основной русификатор использует оригинальные тексты снов и работает самостоятельно.
 
-Установите основной пакет, закройте игру и распакуйте **`LostOdyssey-Russian-Dreams-v0.2.0-beta-EXPERIMENTAL.zip`** в ту же папку с `LostOdysseyRecomp.exe`, объединяя `mods/ru`. Затем перезапустите игру.
+Установите основной пакет, закройте игру и распакуйте **`LostOdyssey-Russian-Dreams-v0.3.0-beta-EXPERIMENTAL.zip`** в ту же папку с `LostOdysseyRecomp.exe`, объединяя `mods/ru`. Затем перезапустите игру.
 
 **Внимание:** во снах возможны сильные наложения фрагментов, неудобные переносы, разрывы слов, нарушения анимации и оформления. Некоторые страницы трудно читать. Исправление этих проблем не заявлено.
 
@@ -107,9 +108,9 @@
 <details>
 <summary>Объём и границы проверки</summary>
 
-Пакет основан на существующем переводе **RU 0.5.1**. Основной ZIP: **28 040 JSON-ключ, 536 текстовых ресурсов, 12 LOFONT**. Дополнение: **7 802 ключа в 34 ресурсах снов**; вместе — 35 842 ключа / 570 ресурсов. Число ключей не является процентом готовности или числом отдельных реплик. Девять вступительных сюжетных подписей остаются в основном пакете.
+Пакет основан на существующем переводе **RU 0.5.1**. Основной ZIP: **28 058 JSON-ключ, 536 текстовых ресурсов, 12 LOFONT**. Дополнение: **7 802 ключа в 34 ресурсах снов**; вместе — 35 860 ключа / 570 ресурсов. Число ключей не является процентом готовности или числом отдельных реплик. Девять вступительных сюжетных подписей остаются в основном пакете.
 
-Владелец выборочно проверил на FreeFrank v1.0.4 запуск и загрузку сохранений, навыки с `%`, диалоги и субтитры, предметы, часть магии, действия, локации и примеры снов. Автоматические проверки форматов охватывают все четыре диска. Это не полное игровое прохождение и не визуальная проверка каждой строки. Другие версии и платформы требуют отдельного тестирования.
+Владелец выборочно проверил на официальном FreeFrank v1.0.6 запуск и загрузку сохранений, навыки с `%`, диалоги и субтитры, предметы, часть магии, действия, локации и примеры снов. Автоматические проверки форматов охватывают все четыре диска. Это не полное игровое прохождение и не визуальная проверка каждой строки. Другие версии и платформы требуют отдельного тестирования.
 
 </details>
 
@@ -131,10 +132,10 @@
 
 ## English quick start
 
-Unofficial Russian text translation for **[FreeFrank LostOdysseyRecomp](https://github.com/freefrank/LostOdysseyRecomp), Windows x64**. This language pack is intended for the official LostOdysseyRecomp from FreeFrank (Windows x64). It has been tested on v1.0.4. Newer versions may be compatible but have not yet been tested. FreeFrank updates may require the language pack to be adapted. Beta, selectively tested; no complete playthrough or approval of every string is claimed. No original game or modified EXE is included.
+Unofficial Russian text translation for **[FreeFrank LostOdysseyRecomp](https://github.com/freefrank/LostOdysseyRecomp), Windows x64**. This language pack is intended for the official LostOdysseyRecomp from FreeFrank (Windows x64). Tested in-game with the official FreeFrank v1.0.6 on Windows x64, based on selective verification by the project owner. A complete playthrough and verification of every translated string are not claimed. Newer versions have not yet been tested and may require the language pack to be adapted. Beta, selectively tested; no complete playthrough or approval of every string is claimed. No original game or modified EXE is included.
 
 1. Set up official **[FreeFrank for Windows x64](https://github.com/freefrank/LostOdysseyRecomp/releases/latest)** with your own original game data. Close the game.
-2. Get **`LostOdyssey-Russian-Language-Pack-v0.2.0-beta.zip`** from [GitHub Releases](https://github.com/Sanya1988/LostOdyssey-Russian-FreeFrank/releases), not **Source code** or **Code → Download ZIP**.
+2. Get **`LostOdyssey-Russian-Language-Pack-v0.3.0-beta.zip`** from [GitHub Releases](https://github.com/Sanya1988/LostOdyssey-Russian-FreeFrank/releases), not **Source code** or **Code → Download ZIP**.
 3. Move any existing `mods/ru` completely outside `mods`. Extract the main ZIP beside `LostOdysseyRecomp.exe`, producing **`mods/ru/language.ini`**.
 4. Start FreeFrank → **Settings → System → Game language → Russian → Save settings**. Fully restart, then load your save.
 

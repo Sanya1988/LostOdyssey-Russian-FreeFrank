@@ -1,3 +1,47 @@
+# v0.3.0-beta — Release Notes / Примечания к выпуску
+
+## Русский
+
+Автор русификатора: **Sanya1988**. Неофициальный data-only пакет для LostOdysseyRecomp от FreeFrank. Русификатор предназначен для официального LostOdysseyRecomp от FreeFrank (Windows x64). Проверено в игре на официальном FreeFrank v1.0.6 для Windows x64. Основание — выборочная игровая проверка владельца; полное прохождение и проверка каждой строки не заявляются. Более новые версии пока не проверены и могут потребовать адаптации русификатора. Спасибо FreeFrank и участникам проекта за порт и language packs; их одобрение перевода не заявляется.
+
+## Новое в v0.3.0 Beta
+
+- Принятые короткие названия оружия, колец, аксессуаров, материалов и ключевых предметов; полные описания сохранены. У усиленных колец `+` означает «Усиленное».
+- Исправлены наложения имени и количества, подписи скорости атаки, «Тип»/«Прокрутка», фильтра/сортировки и числа ячеек навыков.
+- Уточнены имена магии и обе колонки составных рецептов; сокращены длинные пункты карты, добавлены 11 названий локаций и четыре пропущенные привязки имени «Келолон».
+- Из 297 редакционных предложений доставлена 231 короткая форма, 66 полных имён сохранены. С учётом последующих проверок относительно v0.2 изменены 303 и добавлены 18 native ключей; это не процент готовности.
+- Проверено владельцем в игре на официальном FreeFrank v1.0.6 / Windows x64, выборочно. Сохранены прежние 64 дополнительных имени магии, 15 служебных сообщений, шесть TITLE-подписей и исправление навыков с `%`.
+
+Основной пакет: **28 058 JSON-ключей / 536 ресурсов / 12 LOFONT**. Все34 сна — отдельное EXPERIMENTAL дополнение: **7 802 ключа / 34 ресурса**. Вместе35 860 ключей/570 ресурсов. Это не процент готовности.
+
+Закройте игру, перенесите прежнюю `mods/ru` целиком за пределы `mods`, распакуйте основной ZIP рядом с `LostOdysseyRecomp.exe`. Выберите **Settings → System → Game language → Russian**, сохраните настройки и полностью перезапустите игру. Сны устанавливаются поверх той же версии. Для удаления дополнения целиком замените `mods/ru` чистым основным пакетом; сохранения и достижения не удаляйте.
+
+**Ограничения:** All-Stonus остаётся английским; XMB и host UI переведены не полностью. Другие переполнения UI возможны. Экспериментальные сны сохраняют серьёзные наложения, разрывы строк и нарушения анимации; их тексты и геометрия в этом выпуске не менялись. Неудачные geometry experiments, Reading Mode, engine patches, EXE/DLL и графический ru-local-artwork исключены. Полного прохождения нет.
+
+Оригинальная игра не входит. Письменное разрешение правообладателей на производный текст и игровые изображения не заявляется; **LEGAL_REVIEW_REQUIRED** сохраняется. Дополнения Noto Sans — SIL OFL1.1. См.LICENSE.md и THIRD_PARTY_NOTICES.md.
+
+## English
+
+Russian language pack author: **Sanya1988**. Unofficial data-only pack for FreeFrank LostOdysseyRecomp. This language pack is intended for the official LostOdysseyRecomp from FreeFrank (Windows x64). Tested in-game with the official FreeFrank v1.0.6 on Windows x64, based on selective verification by the project owner. A complete playthrough and verification of every translated string are not claimed. Newer versions have not yet been tested and may require the language pack to be adapted. Thanks to FreeFrank and its contributors for the port and language packs; their endorsement is not claimed.
+
+## New in v0.3.0 Beta
+
+- Accepted compact weapon, ring, accessory, material and key-item names, retaining full descriptions. A ring's `+` suffix means its enhanced variant.
+- Fixes for names overlapping quantities, Attack Speed, Type/Scroll, filter/sort labels and the skill-slot counter.
+- Compact spell names and composite ingredients; shorter map entries, 11 additional location labels and four missing Kelolon bindings.
+- Of 297 editorial proposals, 231 compact forms are delivered and 66 full names retained. Including later checks, 303 native keys changed and 18 were added versus v0.2; this is not a completion percentage.
+- Selectively tested in-game by the owner with official FreeFrank v1.0.6 / Windows x64. The previous 64 additional spell names, 15 system messages, six TITLE labels and `%` skill-name fix are retained.
+
+Base: **28,058 JSON keys / 536 resources / 12 LOFONT**. All34 Dreams are a separate EXPERIMENTAL add-on: **7,802 keys / 34 resources**. Combined35,860 keys/570 resources; not a completion percentage.
+
+Close the game, move the entire old `mods/ru` outside `mods`, and extract the base ZIP beside `LostOdysseyRecomp.exe`. Select **Settings → System → Game language → Russian**, save and fully restart. Install optional Dreams over the same base version. To remove them, replace the entire `mods/ru` with a clean base pack; keep saves and achievements.
+
+**Limitations:** All-Stonus stays English; XMB and host UI coverage remain incomplete. Other UI overflow is possible. Experimental Dreams retain severe overlaps, broken wrapping and animation problems; their text and geometry are unchanged. Rejected geometry experiments, Reading Mode, engine patches, EXE/DLL and artwork mods are excluded. No complete playthrough is claimed.
+
+Original game data is not included. Written rightsholder authorization for derivative text and depicted game content is not claimed; **LEGAL_REVIEW_REQUIRED** remains. Noto additions retain SIL OFL1.1. See LICENSE.md and THIRD_PARTY_NOTICES.md.
+
+---
+
 # v0.2.0-beta — Release Notes / Примечания к выпуску
 
 ## Русский

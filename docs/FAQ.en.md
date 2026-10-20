@@ -2,11 +2,11 @@
 
 ## Which file should I download?
 
-Install `LostOdyssey-Russian-Language-Pack-v0.2.0-beta.zip` from [GitHub Releases](https://github.com/Sanya1988/LostOdyssey-Russian-FreeFrank/releases).
+Install `LostOdyssey-Russian-Language-Pack-v0.3.0-beta.zip` from [GitHub Releases](https://github.com/Sanya1988/LostOdyssey-Russian-FreeFrank/releases).
 GitHub's automatic Source code archive is a repository snapshot, not the ready-to-install package.
 Obtain official [FreeFrank for Windows x64](https://github.com/freefrank/LostOdysseyRecomp/releases/latest) and your own original Lost Odyssey data separately.
 
-This language pack is intended for the official LostOdysseyRecomp from FreeFrank (Windows x64). It has been tested on v1.0.4. Newer versions may be compatible but have not yet been tested. FreeFrank updates may require the language pack to be adapted.
+This language pack is intended for the official LostOdysseyRecomp from FreeFrank (Windows x64). Tested in-game with the official FreeFrank v1.0.6 on Windows x64, based on selective verification by the project owner. A complete playthrough and verification of every translated string are not claimed. Newer versions have not yet been tested and may require the language pack to be adapted.
 
 ## Where do I extract it, and how do I select Russian?
 
@@ -51,3 +51,7 @@ Use [this project's Issues](https://github.com/Sanya1988/LostOdyssey-Russian-Fre
 Redact personal data from any evidence. Do not upload game files, saves, tokens or complete dumps.
 Noto additions retain SIL OFL 1.1. Translation/tooling rights are separate. Russian language pack author: **Sanya1988**. Authorization from the original rightsholders to distribute
 the derivative text remains LEGAL_REVIEW_REQUIRED. A disclaimer does not clear them. See LICENSE.md.
+
+## What does + on a ring mean?
+
+It marks that ring's enhanced variant. Levels, numbers and distinctions are retained; see the full description in the help panel.

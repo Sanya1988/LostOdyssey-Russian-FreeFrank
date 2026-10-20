@@ -1,5 +1,6 @@
 {
-  "base_keys": 28040,
+  "agent_runtime_test": false,
+  "base_keys": 28058,
   "base_resources": 536,
   "dream_keys": 7802,
   "dream_resources": 34,
@@ -7,8 +8,10 @@
   "lofonts": 12,
   "main_works_without_dream_addon": true,
   "newer_runtime": "RETEST_REQUIRED",
-  "official_main": "d3d1aeecaa25c3e2921fc28cd8c68bdc265c46df",
-  "owner_magic_status": "APPROVED_FOR_BETA; not every screen visually tested",
+  "official_main": "8c22ccb01ea8c3935f38bb62a84750728565b071",
+  "offline_native_baseline": "v1.0.4; source contracts reviewed againstv1.0.6",
+  "owner_magic_status": "OWNER_PASS_SELECTIVE; not every screen/string tested",
   "source_interfaces": "COMPATIBLE for the used text/font API; does not establish runtime compatibility",
-  "tested_runtime": "FreeFrank v1.0.4 Windows x64"
+  "test_basis": "OWNER_PASS selective gameplay; manifest source_version1.0.6 and runtime build b11c884e9a00",
+  "tested_runtime": "FreeFrank v1.0.6 Windows x64"
 }

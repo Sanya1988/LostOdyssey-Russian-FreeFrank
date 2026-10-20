@@ -12,12 +12,12 @@
   "native_base": "int",
   "new_canonical_spell_names": 64,
   "new_native_save_load_messages": 15,
-  "newer_freefrank_runtime": "1.0.6 and later: RETEST_REQUIRED",
+  "newer_freefrank_runtime": "Versions after1.0.6: RETEST_REQUIRED",
   "rights_status": "LEGAL_REVIEW_REQUIRED",
-  "target_freefrank": "1.0.4",
-  "tested_freefrank": "1.0.4",
-  "testing": "Four-disc offline validation; selective prior owner gameplay verification; new magic approved for beta, not every visual context tested",
+  "target_freefrank": "1.0.6",
+  "tested_freefrank": "1.0.6",
+  "testing": "Selective in-game OWNER_PASS on official1.0.6 Windows x64, manifest/log verified; agent offline native4discs checks, no complete playthrough",
   "text_resources": 536,
-  "translated_json_keys": 28040,
-  "version": "0.2.0-beta"
+  "translated_json_keys": 28058,
+  "version": "0.3.0-beta"
 }
